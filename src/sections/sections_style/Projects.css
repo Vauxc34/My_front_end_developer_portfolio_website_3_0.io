@@ -1,0 +1,58 @@
+#slider {
+    display: flex;
+    position: absolute;
+    justify-content: flex-start;
+    top: 100vh;
+    height: 100vh;
+    width: 100%;
+}
+
+#project1 {
+    position: relative;
+    height:50%;
+    width:50%;
+    background-color: red;
+}
+
+#project2 {
+    position: relative;
+    height:50%;
+    width:50%;
+    background-color: rgb(0, 255, 0);
+}
+
+#project3 {
+    position: relative;
+    height:50%;
+    width:50%;
+    background-color: rgb(55, 0, 255);
+}
+
+#project4 {
+    align-self: flex-end;
+    position: absolute;
+    left: 65%;
+    bottom: 0px;
+    height:50%;
+    width:35%;
+    background-color: rgb(217, 255, 0);
+}
+
+#project5 {
+    align-self: flex-end;
+    position: absolute;
+    left:33.35%;;
+    bottom: 0px;
+    height:50%;
+    width:33.35%;
+    background-color: rgb(255, 0, 140);
+}
+
+#project6 {
+    align-self: flex-end;
+    position:absolute;
+    bottom: 0px;
+    height:50%;
+    width:33.35%;
+    background-color: rgb(0, 255, 255);
+}

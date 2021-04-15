@@ -5,6 +5,15 @@
 }
 
 body {
-  max-height: 400vh;
+  max-height: 1000vh;
   max-width: 600vw;
+}
+
+::-webkit-scrollbar {
+  width: 10px;
+  background-color: #4949491a;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: #800000;
 }
