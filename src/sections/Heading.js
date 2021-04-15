@@ -1,6 +1,6 @@
 import React from 'react'
 import './sections_style/Heading.css'
-import heading from './images/header.jpg'
+import heading from './images/heading.gif'
 
 const Heading = () => (
 

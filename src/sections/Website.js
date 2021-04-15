@@ -7,10 +7,12 @@ import Projects from './Projects'
 import Information from './Information'
 import Footer from './Footer'
 
+
 const Website = () => (
 
     <div className="wrapper">
         <div id="start_box">
+        
         <h1>wiktor wyrostek front end developer</h1>
         </div>
         <Heading />
