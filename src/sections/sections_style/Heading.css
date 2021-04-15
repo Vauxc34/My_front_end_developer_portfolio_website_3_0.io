@@ -43,7 +43,7 @@ h1 {
     text-transform: uppercase;
     text-align: center;
     margin: 8px;
-    font-size: 20px;
+    font-size: 22px;
     font-family: 'Merriweather', serif;
     color: white;
     z-index: -1;
@@ -55,7 +55,7 @@ ul {
     align-self: center;
     list-style: none;
     text-align: center;
-    font-size: 32px;
+    font-size: 46px;
     font-family: 'Fjalla One', sans-serif;
     animation: showing_list 2s linear;
     z-index: 1;
@@ -84,11 +84,11 @@ a {
 }
 
 a:hover {
-    font-size: 38px;
+    font-size: 52px;
 }
 
 a:active {
-    font-size: 38px;
+    font-size: 52px;
 }
 
 p {

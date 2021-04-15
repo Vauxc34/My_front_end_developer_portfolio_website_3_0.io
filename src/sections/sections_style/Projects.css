@@ -1,58 +1,86 @@
+@import url('https://fonts.googleapis.com/css2?family=Fjalla+One&family=Lobster&family=Merriweather&display=swap');
+
 #slider {
     display: flex;
     position: absolute;
     justify-content: flex-start;
+    flex-direction: column;
     top: 100vh;
     height: 100vh;
     width: 100%;
 }
 
+/* project1 */
+
 #project1 {
+    display: flex;
+    justify-content: center;
     position: relative;
     height:50%;
-    width:50%;
-    background-color: red;
+    width:100%;
 }
+
+#glitch_effect {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    opacity: 0.75;
+    background-image: url(../images/glitch_effect.gif);
+}
+
+#info_about_desktop {
+    text-transform: uppercase;
+    align-self: center;
+    font-size:40px;
+    font-family: 'Fjalla One', sans-serif;
+    color: white;
+    cursor: default;
+    z-index: 1;
+}
+
+#prj1 {
+    position: absolute;
+    bottom: 0px;
+    height: auto;
+    width: 100%; 
+    z-index: -3;  
+}
+
+/* */
 
 #project2 {
     position: relative;
     height:50%;
-    width:50%;
+    width:100%;
     background-color: rgb(0, 255, 0);
 }
 
 #project3 {
     position: relative;
     height:50%;
-    width:50%;
+    width:100%;
     background-color: rgb(55, 0, 255);
 }
 
 #project4 {
-    align-self: flex-end;
-    position: absolute;
-    left: 65%;
+    position: relative;
     bottom: 0px;
     height:50%;
-    width:35%;
+    width:100%;
     background-color: rgb(217, 255, 0);
 }
 
 #project5 {
-    align-self: flex-end;
-    position: absolute;
-    left:33.35%;;
+    position: relative;
     bottom: 0px;
     height:50%;
-    width:33.35%;
+    width:100%;
     background-color: rgb(255, 0, 140);
 }
 
 #project6 {
-    align-self: flex-end;
-    position:absolute;
-    bottom: 0px;
+    position:relative;
     height:50%;
-    width:33.35%;
+    width:100%;
     background-color: rgb(0, 255, 255);
-}
+} 
