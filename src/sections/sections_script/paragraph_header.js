@@ -1,0 +1,1 @@
+const par_animated = document.getElementById('animated_paragraph')

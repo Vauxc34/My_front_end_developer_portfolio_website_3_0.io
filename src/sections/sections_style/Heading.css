@@ -1,20 +1,100 @@
+@import url('https://fonts.googleapis.com/css2?family=Fjalla+One&family=Lobster&family=Merriweather&display=swap');
+
 #heading {
+    align-self: flex-start;
     position: absolute;
     display: flex;
     justify-content: center;
     height: 100vh;
     width: 100%;
-    background-color: #8d18187e;
+    background-color: #0000007e;
+    overflow: hidden;
+}
+
+#shape1 {
+    position: absolute;
+    top: -300px;
+    height: 650px;
+    width: 1280px;
+    clip-path: ellipse(50% 15% at 50% 50%);
+    background-color: #0080008e;
+}
+
+#shape2 {
+    position: absolute;
+    bottom: -300px;
+    height: 650px;
+    width: 1280px;
+    clip-path: ellipse(50% 15% at 50% 50%);
+    background-color: #8000008e;
+    z-index: -1;
+}
+
+img {
+    position: absolute;
+    height: 105%;
+    z-index: -1;
 }
 
 h1 {
+    display: block;
     text-transform: uppercase;
     text-align: center;
-    font-size: 20px;
+    margin: 20px;
+    font-size: 24px;
+    font-family: 'Merriweather', serif;
+    color: white;
+    z-index: 0;
+}
+
+ul {
+    display: block;
+    position: absolute;
+    align-self: center;
+    list-style: none;
+    text-align: center;
+    font-size: 32px;
+    font-family: 'Fjalla One', sans-serif;
+    animation: showing_list 2s linear;
+    z-index: 1;
+}
+
+@keyframes showing_list {
+
+    0% {
+        opacity: 0;
+        /* top: 0%; */
+    }
+
+    100% {
+        opacity: 1;
+        /* top: 40%; */
+    }
+
+}
+
+a {
+    display: block;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: white;
+    transition: .5s;
+}
+
+a:hover {
+    font-size: 38px;
+}
+
+a:active {
+    font-size: 38px;
 }
 
 p {
+    display: block;
     position: absolute;
-    align-self: center;
-    font-size: 40px;
+    align-self: flex-end;
+    margin: 20px;
+    font-size: 48px;
+    font-family: 'Lobster', cursive;
+    color: white;
 }

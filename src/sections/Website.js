@@ -1,5 +1,6 @@
 import React from 'react'
 import './sections_style/Website.css';
+// import './images/wrapper.jpg'
 
 import Heading from './Heading'
 import Slider from './Slider'
