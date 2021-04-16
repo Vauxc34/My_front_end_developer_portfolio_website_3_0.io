@@ -16,7 +16,8 @@
     position: relative;
     height: 50%;
     width: 100%;
-    background-color: black;
+    border: 18px solid #ffffff50;
+    background-color: #7048fd;
     background-size: 75%;
     z-index: 0;
     overflow: hidden;
@@ -36,9 +37,9 @@
     display: flex;
     justify-content: center;
     align-self: center;
-    height: 95%;
+    height: 90%;
     width: 90%;
-    background-color: #000000a2;
+    background-color: #7852ff;
     z-index: 2;
 }
 
@@ -49,17 +50,17 @@
     bottom: 0px;
     height: 50%;
     width: 100%;
+    border-top: 2px solid white;
     background-image: url(../images/desk.jpg);
 }
 
 h5 {
     position: absolute;
-    top: 55px;
-    right: 45px;
+    margin: 25px;
     font-size: 42px;
     text-transform: uppercase;
-    font-family: 'Lobster', cursive;
-    color: white;
+    font-family: 'Merriweather', serif;
+    color: #2300ecb9;
 }
 
 /* description */
@@ -69,18 +70,19 @@ h5 {
     position: relative;
     height: 70%;
     width: 100%;
-    background-color: #15008b3d;
+    background-color: #2300ecb9;
 }
 
 .desc {
     display: block;
     position: absolute;
     align-self: center;
-    text-align: center;
-    font-size: 24px;
+    text-align: left;
+    font-size: 22px;
     padding: 1px;
     text-transform: uppercase;
     font-family: 'Merriweather', serif;
+    color: #7048fd;
     z-index: 1;
 }
 
