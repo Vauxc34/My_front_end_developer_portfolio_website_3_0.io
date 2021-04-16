@@ -25,7 +25,7 @@ const Projects = () => (
     <span id="info">[coming soon]</span>
 </div>
 <div id="project6">
-    <span id="info">[coming soon]</span>
+    <span id="info">mad man run</span>
 </div>
 
 </div>

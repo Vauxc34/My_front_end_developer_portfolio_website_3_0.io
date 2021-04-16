@@ -8,7 +8,7 @@
     height: 70vh;
     width: 100%;
     border-top: 2px solid white;
-    background-color: #00008b;
+    background-image: linear-gradient(black, darkblue);
     z-index: 1;
 }
 
