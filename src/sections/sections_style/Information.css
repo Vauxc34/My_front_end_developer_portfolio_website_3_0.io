@@ -62,24 +62,71 @@ h5 {
     color: white;
 }
 
+/* description */
+
 #description {
-    align-self: flex-end;
+    align-self: center;
     position: relative;
-    height: 85%;
+    height: 70%;
     width: 100%;
-    filter: blur(3px);
-    background-color: #0000002f;
+    background-color: #15008b3d;
 }
 
 .desc {
     display: block;
     position: absolute;
-    align-self: flex-end;
+    align-self: center;
     text-align: center;
-    font-size: 28px;
+    font-size: 24px;
+    padding: 1px;
+    text-transform: uppercase;
     font-family: 'Merriweather', serif;
     z-index: 1;
 }
+
+.pol_red {
+    font-size: 24px;
+    font-family: 'Merriweather', serif;
+    color: red;
+}
+
+.pol_white {
+    font-size: 24px;
+    font-family: 'Merriweather', serif;
+    color: white;
+}
+
+.tgf2_yellow {
+    font-size: 24px;
+    font-family: 'Merriweather', serif;
+    color: yellow;
+}
+
+.tgf2_red {
+    font-size: 24px;
+    font-family: 'Merriweather', serif;
+    color: red;
+}
+
+.mmf2_red {
+    font-size: 28px;
+    font-family: 'Merriweather', serif;
+    color: red;
+}
+
+.mmf2_blue {
+    font-size: 28px;
+    font-family: 'Merriweather', serif;
+    color: blue;
+}
+
+.programming {
+    font-size: 28px;
+    font-family: 'Merriweather', serif;
+    color: green;
+}
+
+/* */
 
 #working_man {
     position: absolute;

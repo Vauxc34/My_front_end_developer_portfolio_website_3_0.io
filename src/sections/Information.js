@@ -24,7 +24,7 @@ const Information = () => (
         <div id="about_me">
         <img id="working_man" src={working_man} alt="working_man"></img>
         <h5>about me</h5>
-        <p className="desc">BEGINNER FRONT END PROGRAMIST AND STUDENT LIVING IN A SMALL VILLAGE IN POLAND. WHO STARTED IN 2014 WRITING SOME BASIC GAMES IN THE GAMES FACTORY 2 AND MULTIMEDIA FUSION 2. CURRENTLY I HAVE 18 YEAR'S OLD AND I STARTING THIS JOURNEY WITH PROGRAMMING AGAIN</p>
+        <p className="desc">Beginner front end programist and Student living in a small village in <span className="pol_red">Pol</span><span className="pol_white">and</span>. who started in 2014 writing some basic games in <span className="tgf2_yellow">The Games</span> <span className="tgf2_red">Factory 2<br></br></span> and <span className="mmf2_blue">Multimedia</span> <span className="mmf2_red">Fusion 2</span>. Currently i have 18 year's old and i starting this journey with <span className="programming">programming </span>again</p>
         <div id="description">
         </div>
         </div>

@@ -46,12 +46,14 @@ span {
     position: absolute;
     height: 100%;
     width: 100%;
-    opacity: 0.75;
+    left: 0px;
+    opacity: 0.65;
     background-image: url(../images/glitch_effect.gif);
 }
 
 #prj1 {
     position: absolute;
+    left: 0px;
     bottom: 0px;
     height: auto;
     width: 100%; 
