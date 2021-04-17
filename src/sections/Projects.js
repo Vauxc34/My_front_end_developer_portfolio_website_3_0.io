@@ -20,12 +20,15 @@ const Projects = () => (
 </div>
 <div id="project3">
     <span id="info">[coming soon]</span>
+    <a className="madmanrun_website" href="https://www.google.pl/">[click here to see more]</a>
 </div>
 <div id="project4">
     <span id="info">[coming soon]</span>
+    <a className="madmanrun_website" href="https://www.google.pl/">[click here to see more]</a>
 </div>
 <div id="project5">
     <span id="info">[coming soon]</span>
+    <a className="madmanrun_website" href="https://www.google.pl/">[click here to see more]</a>
 </div>
 <div id="project6">
     <span id="info">madmanrun.pl</span>
