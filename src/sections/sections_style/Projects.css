@@ -41,6 +41,7 @@ span {
     position: relative;
     height:50%;
     width:100%;
+    background-image: linear-gradient(#0000009c, #252525da 115%);
 }
 
 #glitch_effect {
@@ -48,7 +49,7 @@ span {
     height: 100%;
     width: 100%;
     left: 0px;
-    opacity: 0.65;
+    opacity: 0.35;
     background-image: url(../images/glitch_effect.gif);
 }
 
@@ -63,14 +64,27 @@ span {
 
 /* */
 
+/* Project 2 */
+
 #project2 {
     display: flex;
     justify-content: center;
     position: relative;
     height:50%;
     width:100%;
-    background-color: #5b6b5ae1;
+    background-image: linear-gradient(#0000009c, #0080007a 115%);
 }
+
+#prj2 {
+    position: absolute;
+    left: 0px;
+    bottom: 0px;
+    height: auto;
+    width: 100%; 
+    z-index: -4;  
+}
+
+/* */
 
 #project3 {
     display: flex;
@@ -78,7 +92,16 @@ span {
     position: relative;
     height:50%;
     width:100%;
-    background-color: #00ff00b9;
+    background-image: linear-gradient(#0000009c, #252525da 115%);
+}
+
+#prj3 {
+    position: absolute;
+    left: 0px;
+    bottom: 0px;
+    height: auto;
+    width: 100%; 
+    z-index: -5;  
 }
 
 #project4 {
@@ -88,7 +111,7 @@ span {
     bottom: 0px;
     height:50%;
     width:100%;
-    background-color: #00c0005b;
+    background-image: linear-gradient(#0000009c, #252525da 115%);
 }
 
 #project5 {
@@ -98,7 +121,7 @@ span {
     bottom: 0px;
     height:50%;
     width:100%;
-    background-color: #009c00b9;
+    background-image: linear-gradient(#0000009c, #252525da 115%);
 }
 
 /* project 6 */

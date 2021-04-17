@@ -2,6 +2,8 @@ import React from 'react'
 import './sections_style/Projects.css'
 
 import project1 from './images/thumbnail.png'
+import project3 from './images/checkers.png'
+import project2 from './images/mini_apps.png'
 import project6 from './images/madmanrun.png'
 
 const Projects = () => (
@@ -9,18 +11,20 @@ const Projects = () => (
 <div id="slider">
 
 <div id="project1">
-    <span id="info_about_desktop">[desktop only!]</span>
+    <span id="info_about_desktop">five night's at doge</span>
     <a className="gamejolt" href="https://gamejolt.com/games/fnad0-1alpha/601491">[gamejolt]</a>
     <div id="glitch_effect"></div>
     <img id="prj1" src={project1} alt="prj1"></img>
 </div>
 <div id="project2">
-    <span id="info">mini app's</span>
-    <a className="madmanrun_website" href="https://www.google.pl/">[click here to see more]</a>
+    <span id="info">checker's</span>
+    <a className="madmanrun_website" href="https://www.google.pl/">[github]</a>
+    <img id="prj3" src={project3} alt="prj3"></img>
 </div>
 <div id="project3">
-    <span id="info">[coming soon]</span>
-    <a className="madmanrun_website" href="https://www.google.pl/">[click here to see more]</a>
+    <span id="info">mini app's</span>
+    <a className="madmanrun_website" href="https://www.google.pl/">[github]</a>
+    
 </div>
 <div id="project4">
     <span id="info">[coming soon]</span>
