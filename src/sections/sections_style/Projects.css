@@ -41,7 +41,7 @@ span {
     position: relative;
     height:50%;
     width:100%;
-    background-image: linear-gradient(#0000009c, #252525da 115%);
+    background-image: linear-gradient(#0000009c, #000000 115%);
 }
 
 #glitch_effect {
@@ -49,7 +49,7 @@ span {
     height: 100%;
     width: 100%;
     left: 0px;
-    opacity: 0.35;
+    opacity: 0.15;
     background-image: url(../images/glitch_effect.gif);
 }
 
