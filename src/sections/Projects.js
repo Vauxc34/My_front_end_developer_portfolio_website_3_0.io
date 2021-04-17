@@ -16,6 +16,7 @@ const Projects = () => (
 </div>
 <div id="project2">
     <span id="info">mini app's</span>
+    <a className="madmanrun_website" href="https://www.google.pl/">[click here to see more]</a>
 </div>
 <div id="project3">
     <span id="info">[coming soon]</span>
