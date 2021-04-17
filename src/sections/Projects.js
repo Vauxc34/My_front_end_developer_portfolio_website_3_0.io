@@ -1,6 +1,8 @@
 import React from 'react'
 import './sections_style/Projects.css'
+
 import project1 from './images/thumbnail.png'
+import project6 from './images/madmanrun.png'
 
 const Projects = () => (
 
@@ -13,7 +15,7 @@ const Projects = () => (
     <img id="prj1" src={project1} alt="prj1"></img>
 </div>
 <div id="project2">
-    <span id="info">[coming soon]</span>
+    <span id="info">mini app's</span>
 </div>
 <div id="project3">
     <span id="info">[coming soon]</span>
@@ -26,6 +28,8 @@ const Projects = () => (
 </div>
 <div id="project6">
     <span id="info">madmanrun.pl</span>
+    <img id="prj6" src={project6} alt="prj6"></img>
+    <a className="madmanrun_website" href="http://madmanrun.pl/">[click here to see website]</a>
 </div>
 
 </div>

@@ -35,32 +35,32 @@ const Information = () => (
         <div id="skill1">
         
         <img id="html5" src={html5}></img>
-
+        <span className="html5_name">html5</span>
         </div>
         <div id="skill2">
 
         <img id="css3" src={css3}></img>
-
+        <span className="css3_name">css3</span>
         </div>
         <div id="skill3">
          
         <img id="js6" src={js6}></img>
-
+        <span className="js6_name">javascript</span>
         </div>
         <div id="skill4">
-            
+        
         <img id="sassscss" src={sassscss}></img>
-
+        <span className="sassscss_name">sass/scss</span>
         </div>
         <div id="skill5">
             
         <img id="react" src={react}></img>
-
+        <span className="react_name">react</span>
         </div>
         <div id="skill6">
 
         <img id="git" src={git}></img>
-
+        <span className="git_name">git</span>
         </div>
         <h4>my actual skills</h4>
         </div>

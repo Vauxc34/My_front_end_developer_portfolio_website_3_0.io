@@ -50,7 +50,6 @@
     bottom: 0px;
     height: 50%;
     width: 100%;
-    border-top: 2px solid white;
     background-image: url(../images/desk.jpg);
 }
 
@@ -158,6 +157,7 @@ h5 {
     height: 15%;
     width: 100%;
     background-color: #ff9900b9;
+    overflow: hidden;
 }
 
 #skill2 {
@@ -166,6 +166,7 @@ h5 {
     height: 15%;
     width: 100%;
     background-color: #0059ff86;
+    overflow: hidden;
 }
 
 #skill3 {
@@ -173,7 +174,8 @@ h5 {
     justify-content: center;
     height: 15%;
     width: 100%;
-    background-color: #ffe6006b;
+    background-color: #ffe6008e;
+    overflow: hidden;
 }
 
 #skill4 {
@@ -181,7 +183,8 @@ h5 {
     justify-content: center;
     height: 15%;
     width: 100%;
-    background-color: #ff66f783;
+    background-color: #fc7ff5a1;
+    overflow: hidden;
 }
 
 #skill5 {
@@ -190,6 +193,7 @@ h5 {
     height: 15%;
     width: 100%;
     background-color: #3ea8ffab;
+    overflow: hidden;
 }
 
 #skill6 {
@@ -198,6 +202,7 @@ h5 {
     height: 15%;
     width: 100%;
     background-color: #b22222b4;
+    overflow: hidden;
 }
 
 h4 {
@@ -214,52 +219,80 @@ h4 {
 #html5 {
     position: relative;
     align-self: center;
-    left: 0px;
+    left: 150px;
     bottom: 0px;
-    height: 75px;
+    height: 85px;
     z-index: 1;
 }
 
 #css3 {
     position: relative;
     align-self: center;
-    left: 0px;
+    left: -150px;
     bottom: 0px;
-    height: 85px;
+    height: 95px;
     z-index: 1;
 }
 #js6 {
     position: relative;
     align-self: center;
-    left: 0px;
+    left: 145px;
     bottom: 0px;
-    height: 45px;
+    height: 80px;
     z-index: 1;
 }
 
 #sassscss {
     position: relative;
     align-self: center;
-    left: 0px;
+    left: -145px;
     bottom: 0px;
-    height: 65px;
+    height: 120px;
     z-index: 1;
 }
 
 #react {
     position: relative;
     align-self: center;
-    left: 0px;
+    left: 155px;
     bottom: 0px;
-    height: 75px;
+    height: 115px;
     z-index: 1;
 }
 
 #git {
     position: relative;
     align-self: center;
-    left: 0px;
+    left: -145px;
     bottom: 0px;
-    height: 65px;
+    height: 85px;
     z-index: 1;
+}
+
+.html5_name {
+    position: absolute;
+    text-align: center;
+}
+
+.css3_name {
+    position: absolute;
+    text-align: center;
+}
+.js6_name {
+    position: absolute;
+    text-align: center;
+}
+.sassscss_name {
+    position: absolute;
+    text-align: center;
+}
+
+.react_name {
+    position: absolute;
+    text-align: center;
+}
+
+.git_name {
+    position: absolute;
+    text-align: center;
 }
