@@ -24,6 +24,7 @@ const Projects = () => (
 <div id="project3">
     <span id="info">mini app's</span>
     <a className="madmanrun_website" href="https://www.google.pl/">[github]</a>
+    <img id="prj2" src={project2} alt="prj2"></img>
     
 </div>
 <div id="project4">
