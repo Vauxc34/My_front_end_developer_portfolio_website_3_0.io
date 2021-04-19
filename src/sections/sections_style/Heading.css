@@ -107,3 +107,73 @@ p {
 p:hover {
     cursor: default;
 }
+
+/* media querie's */
+
+@media (min-width: 480px) {
+
+    h1 {
+        font-size: 35px;
+    }
+
+    p {
+        font-size: 84px;
+    }
+
+    ul {
+        font-size: 50px;
+    }
+
+    a:active {
+        font-size: 60px;
+    }
+
+    a:hover {
+        font-size: 60px;
+    }
+
+    img {
+        position: absolute;
+        left: 0%;
+        height: auto;
+        width: 200%;
+        z-index: -1;
+    }
+
+}
+
+@media (min-width: 580px) {
+
+    #start_box {
+        width: 100%;
+    }
+
+    h1 {
+        font-size: 25px;
+    }
+
+    p {
+        font-size: 50px;
+    }
+
+    ul {
+        font-size: 50px;
+    }
+
+    a:active {
+        font-size: 60px;
+    }
+
+    a:hover {
+        font-size: 60px;
+    }
+
+    img {
+        position: absolute;
+        left: 0%;
+        height: 100%;
+        width: auto;
+        z-index: -1;
+    }
+
+}

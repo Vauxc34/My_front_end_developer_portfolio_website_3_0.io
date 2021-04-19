@@ -15,6 +15,8 @@ import git from '../sections/images/git.png'
 
 /* */
 
+import about_Mee from '../sections/images/about_me.jpg'
+
 const Information = () => (
 
 <div id="information">
@@ -24,7 +26,8 @@ const Information = () => (
         <div id="about_me">
         
         <h5>about me</h5>
-        <p className="desc">Beginner front end programist and Student living in a small village in Poland. who started in 2014 writing some basic games in The Games Factory 2 Multimedia Fusion 2. Currently i have 18 year's old and i starting this journey with programming again</p>
+        <img id="about_me_" src={about_Mee}></img>
+        <p className="desc">Beginner front end programist and Student living in a small village in Poland. who started in 2014 writing some basic games in The Games Factory 2 Multimedia Fusion 2. Currently i have 18 year's old and i starting this journey with programming again. Creativity and beign helpful is my strong side. <br></br><br></br></p>
         <div id="description">
         </div>
         </div>

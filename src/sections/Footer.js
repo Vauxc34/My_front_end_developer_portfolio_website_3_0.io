@@ -15,7 +15,7 @@ const Footer = () => (
     </form>
 
     <div id="contact_email">
-        <span id="email">kaxowy12@gmail.com</span>
+        <span id="email">wiktor wyrostek &copy;	2021 </span>
     </div>
 
 </div>
