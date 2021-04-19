@@ -237,6 +237,7 @@ h4 {
     height: 95px;
     z-index: 1;
 }
+
 #js6 {
     position: relative;
     align-self: center;
@@ -305,6 +306,134 @@ h4 {
 
 @media (min-width: 640px) {
 
+    .html5_name {
+        position: absolute;
+        text-align: center;
+        font-size: 60px;
+    }
+    
+    .css3_name {
+        position: absolute;
+        text-align: center;
+        font-size: 60px;
+    }
+    .js6_name {
+        position: absolute;
+        text-align: center;
+        font-size: 35px;
+    }
+    .sassscss_name {
+        position: absolute;
+        text-align: center;
+        font-size: 35px;
+    }
+    
+    .react_name {
+        position: absolute;
+        text-align: center;
+        font-size: 60px;
+    }
+    
+    .git_name {
+        position: absolute;
+        text-align: center;
+        font-size: 60px;
+    }
+
+    #actual_skills {
+        display: flex;
+        flex-direction: row;
+        align-self: flex-start;
+        margin-top: 20px;
+        height: 80%;
+        width: 90%;
+        border-bottom: 2px solid white;
+        background-color: #0000008a;
+        z-index: 1;
+    }
+
+    #html5 {
+        position: relative;
+        align-self: center;
+        left: 50%;
+        bottom: 0px;
+        height: 82.5px;
+        z-index: 1;
+    }
+
+    #css3 {
+        position: relative;
+        align-self: center;
+        left: -50%;
+        bottom: 0px;
+        height: 95px;
+        z-index: 1;
+    }
+
+    #actual_skills {
+        height: 40%;
+    }
+
+    #skill1{
+        position: absolute;
+        top: 20px;
+        width: 30%;
+        bottom: 350px;
+        align-self: flex-end;
+    }
+
+    #skill2{
+        position: absolute;
+        top: 20px;
+        width: 30%;
+        bottom: 350px;
+        left: 35%;
+        align-self: flex-end;
+    }
+
+    #skill3{
+        position: absolute;
+        top: 20px;
+        width: 30%;
+        bottom: 350px;
+        left: 65%;
+        align-self: flex-end;
+    }
+
+    #skill4{
+        width: 30%;
+        position: absolute;
+        bottom: 68.4%;
+        align-self: flex-start;
+    }
+
+    #skill5{
+        width: 30%;
+        position: absolute;
+        bottom: 68.4%;
+        left:35%;
+        align-self: flex-start;
+    }
+
+    #skill6{
+        width: 30%;
+        position: absolute;
+        bottom: 68.4%;
+        left: 65%;
+        align-self: flex-start;
+    }
+
+    #skills2 {
+        display: flex;
+        justify-content: center;
+        position: absolute;
+        bottom: 0px;
+    }
+
+    #knowledge {
+        bottom: 350px;
+    }
+
     #about_me_ {
         top: 0px;
         right: 40px;
@@ -313,9 +442,30 @@ h4 {
         filter: blur(3px);
     }
 
+    h4 {
+        position: absolute;
+        align-self: flex-end;
+        font-size: 68px;
+    }
+
     .desc {
         font-size: 36px;
         padding: 20px;
+    }
+
+}
+
+@media (min-width:480px) and (max-width:580px) {
+
+    #knowledge {
+        display: block;
+        position: absolute;
+        float: right;
+        height: 220px;
+        width: auto;
+        left: -10px;
+        bottom: 15.5%;
+        z-index: 0;
     }
 
 }
