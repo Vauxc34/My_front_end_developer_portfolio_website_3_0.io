@@ -300,3 +300,22 @@ h4 {
     position: absolute;
     text-align: center;
 }
+
+/* media querie's */
+
+@media (min-width: 640px) {
+
+    #about_me_ {
+        top: 0px;
+        right: 40px;
+        height: auto;
+        width: 100%;
+        filter: blur(3px);
+    }
+
+    .desc {
+        font-size: 36px;
+        padding: 20px;
+    }
+
+}
