@@ -157,3 +157,52 @@ span {
     width: 140%; 
     z-index: -3;
 }
+
+/* media querie's */
+
+@media (min-width: 650px) {
+
+    #slider {
+        flex-direction: row;
+    }
+
+    #project4 {
+        align-self: flex-end;
+        position: absolute;
+        left: 65%;
+        bottom: 0px;
+        height:50%;
+        width:35%;
+        background-color: rgb(217, 255, 0);
+    }
+    
+    #project5 {
+        align-self: flex-end;
+        position: absolute;
+        left:33.35%;;
+        bottom: 0px;
+        height:50%;
+        width:33.35%;
+        background-color: rgb(255, 0, 140);
+    }
+    
+    #project6 {
+        align-self: flex-end;
+        position:absolute;
+        bottom: 0px;
+        height:50%;
+        width:33.35%;
+        background-color: rgb(0, 255, 255);
+    } 
+    
+    #prj1 {
+        position: absolute;
+        bottom: 0%;
+        right: 0%;
+        height: 216px;
+        width: 384px; 
+        z-index: -3;  
+    }
+
+
+}
