@@ -79,9 +79,13 @@ h2 {
 
 /* media querie's */
 
-#contact_img {
-    height: 100%;
-    width: 100%;
+@media (min-width: 700px) {
+
+    #contact_img {
+        height: 100%;
+        width: 100%;
+    }
+
 }
 
 @media (min-width: 550px) {

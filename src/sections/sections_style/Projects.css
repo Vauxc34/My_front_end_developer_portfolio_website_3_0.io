@@ -42,6 +42,7 @@ span {
     height:50%;
     width:100%;
     background-image: linear-gradient(#0000009c, #000000 115%);
+    overflow: hidden;
 }
 
 #glitch_effect {
@@ -93,6 +94,7 @@ span {
     height:50%;
     width:100%;
     background-image: linear-gradient(#0000009c, #0b006b 115%);
+    overflow: hidden;
 }
 
 #prj3 {
@@ -172,19 +174,18 @@ span {
 
     #prj1{
         height: 100%;
-        width: 1000px;
-        display: none;
+        width: auto;
     }
 
     #prj2{
         height: 100%;
-        width: 1000px;
-        display: none;
+        width: auto;
+        z-index: -1;
     }
     #prj3{
         height: 100%;
-        width: 1000px;
-        display: none;
+        width: auto;
+        z-index: -1;
     }
     
     #prj4{
@@ -227,22 +228,11 @@ span {
 
     #prj6 {
         position: absolute;
-        left: -1000px;
+        left: -150%;
         top: 0px;
         height: 100%;
         width: auto; 
         z-index: -3;
-        display: none;
     }
-    
-    #prj1 {
-        position: absolute;
-        bottom: 0%;
-        right: 0%;
-        height: 216px;
-        width: 384px; 
-        z-index: -3;  
-    }
-
 
 }
