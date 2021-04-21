@@ -18,27 +18,27 @@ const Projects = () => (
 </div>
 <div id="project2">
     <span id="info">checker's</span>
-    <a className="madmanrun_website" href="https://www.google.pl/">[github]</a>
+    <a className="madmanrun_website" href="https://github.com/Vauxc34/checkers_alpha1/">[github]</a>
     <img id="prj3" src={project3} alt="prj3"></img>
 </div>
 <div id="project3">
     <span id="info">mini app's</span>
-    <a className="madmanrun_website" href="https://www.google.pl/">[github]</a>
+    <a className="madmanrun_website" href="https://github.com/Vauxc34?tab=repositories">[github]</a>
     <img id="prj2" src={project2} alt="prj2"></img>
     
 </div>
 <div id="project4">
     <span id="info">[coming soon]</span>
-    <a className="madmanrun_website" href="https://www.google.pl/">[click here to see more]</a>
+    <a className="madmanrun_website" href="#">[click here to see more]</a>
 </div>
 <div id="project5">
     <span id="info">[coming soon]</span>
-    <a className="madmanrun_website" href="https://www.google.pl/">[click here to see more]</a>
+    <a className="madmanrun_website" href="#">[click here to see more]</a>
 </div>
 <div id="project6">
     <span id="info">madmanrun.pl</span>
     <img id="prj6" src={project6} alt="prj6"></img>
-    <a className="madmanrun_website" href="http://madmanrun.pl/">[click here to see website]</a>
+    <a className="madmanrun_website" href="http://admanrun.pl/">[click here to see website]</a>
 </div>
 
 </div>
