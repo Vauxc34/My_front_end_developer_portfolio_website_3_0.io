@@ -86,7 +86,6 @@ h5 {
 #about_me_ {
     top: 0px;
     right: 40px;
-    filter: blur(4px);
 }
 
 .pol_red {
@@ -444,11 +443,11 @@ h4 {
     }
 
     #about_me_ {
-        top: 50px;
-        right: 40px;
+        top: 150px;
+        right: 30%;
         height: 100%;
         width: auto;
-        filter: blur(3px);
+        filter: blur(4px);
     }
 
     h4 {
@@ -524,7 +523,7 @@ h4 {
 @media (min-width: 675px) {
   
     #about_me_ {
-        top: 0px;
+        top: -7.5%;
         right: 0px;
         height: auto;
         width: 100%;
