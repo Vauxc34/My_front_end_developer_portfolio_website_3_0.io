@@ -11,6 +11,7 @@ const Footer = () => (
     <form action="">
         <h2>any question's?</h2>
         <input type="textarea" id="textarea" placeholder="type message here"></input>
+        <input type="textarea" id="email__" placeholder="your email address"></input>
         <input type="button" value="send!" id="send_btn"></input>
     </form>
 

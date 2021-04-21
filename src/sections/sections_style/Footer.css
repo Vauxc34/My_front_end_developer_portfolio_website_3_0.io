@@ -31,10 +31,25 @@ h2 {
     position: absolute;
     text-align: center;
     font-size: 16px;
-    margin: 40px;
+    top:15%;
     height: 100px;
     width: 300px;
     z-index: 1;
+}
+
+#email__ {
+    position: absolute;
+    height: 35px;
+    width: 60%;
+    top: 40%;
+    text-align: center;
+    border: none;
+    border-radius: 25px;
+}
+
+#email__::placeholder {
+    text-align: center;
+    text-transform: none;
 }
 
 ::placeholder {
@@ -43,7 +58,7 @@ h2 {
 
 #send_btn {
     position: absolute;
-    margin: 160px;
+    top: 50%;
     height: 50px;
     width: 150px;
     text-transform: uppercase;
