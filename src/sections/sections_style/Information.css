@@ -401,28 +401,26 @@ h4 {
     }
 
     #skill4{
-        width: 30%;
-        position: absolute;
-        height: 15.15%;
-        bottom: 68.4%;
+        position: relative;
+        height: 40%;
+        width: 33.5%;
+        top: 37.6%;
         align-self: flex-start;
     }
 
     #skill5{
-        width: 30%;
-        position: absolute;
-        bottom: 68.4%;
-        left:35%;
-        height: 15.15%;
+        position: relative;
+        height: 40%;
+        width: 33.5%;
+        top: 37.6%;
         align-self: flex-start;
     }
 
     #skill6{
-        width: 30%;
-        position: absolute;
-        bottom: 68.4%;
-        left: 65%;
-        height: 15.15%;
+        position: relative;
+        height: 40%;
+        width: 33.5%;
+        top: 37.6%;
         align-self: flex-start;
     }
 
