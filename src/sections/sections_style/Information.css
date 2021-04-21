@@ -485,15 +485,28 @@ h4 {
         display: block;
         position: absolute;
         text-align: left;
-        font-size: 10px;
-        padding: 10px;
+        bottom: 25px;
+        font-size: 45px;
+        padding: 45px;
         text-transform: uppercase;
         font-family: 'Merriweather', serif;
         color: #7048fd;
         z-index: 1;
     }
 
+    #skills1 {height: 40%;}
+
+    #about_me_ {
+        top: -245px;
+        right: 0px;
+        height: auto;
+        width: 100%;
+    }
+
+
+
     h4 {
+
         font-size: 100px;
     }
 
@@ -505,8 +518,9 @@ h4 {
         display: block;
         position: absolute;
         text-align: left;
-        font-size: 70px;
-        padding: 120px;
+        bottom: 35px;
+        font-size: 60px;
+        padding: 85px;
         text-transform: uppercase;
         font-family: 'Merriweather', serif;
         color: #7048fd;
