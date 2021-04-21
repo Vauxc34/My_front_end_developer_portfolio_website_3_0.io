@@ -33,14 +33,14 @@ h2 {
     font-size: 16px;
     top:15%;
     height: 100px;
-    width: 300px;
+    width: 60%;
     z-index: 1;
 }
 
 #email__ {
     position: absolute;
     height: 35px;
-    width: 60%;
+    width: 300px;
     top: 40%;
     text-align: center;
     border: none;
@@ -65,6 +65,7 @@ h2 {
     border: none;
     border-radius: 25px;
     z-index: 1;
+    cursor: pointer;
 }
 
 #contact_img {
@@ -97,9 +98,11 @@ h2 {
 @media (min-width: 700px) {
 
     #contact_img {
-        height: 100%;
-        width: 100%;
+        height: 65%;
+        width: auto;
     }
+
+
 
 }
 
