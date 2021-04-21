@@ -397,12 +397,13 @@ h4 {
         width: 30%;
         bottom: 350px;
         left: 65%;
-        align-self: flex-end;
+        align-self: flex-start;
     }
 
     #skill4{
         width: 30%;
         position: absolute;
+        height: 15.15%;
         bottom: 68.4%;
         align-self: flex-start;
     }
@@ -412,6 +413,7 @@ h4 {
         position: absolute;
         bottom: 68.4%;
         left:35%;
+        height: 15.15%;
         align-self: flex-start;
     }
 
@@ -420,6 +422,7 @@ h4 {
         position: absolute;
         bottom: 68.4%;
         left: 65%;
+        height: 15.15%;
         align-self: flex-start;
     }
 
