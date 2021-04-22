@@ -236,3 +236,29 @@ span {
     }
 
 }
+
+@media (min-width:1440px) {
+
+    span{
+        font-size: 70px;
+    }
+
+    .gamejolt{
+        font-size: 40px;
+        margin: 20px;    }
+
+    .madmanrun_website{
+        font-size: 40px;
+        margin: 20px;
+    }
+
+    .gamejolt:hover{
+        font-size: 40px;
+        margin: 20px;    }
+
+    .madmanrun_website:hover{
+        font-size: 40px;
+        margin: 20px;
+    }
+
+}

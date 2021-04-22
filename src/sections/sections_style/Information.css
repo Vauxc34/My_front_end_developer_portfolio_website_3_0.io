@@ -55,31 +55,32 @@
 h5 {
     position: absolute;
     font-size: 60px;
+    top: 5%;
     text-transform: uppercase;
     font-family: 'Merriweather', serif;
-    color: #2300ec;
+    color: #0f12d1;
 }
 
 /* description */
 
 #description {
     align-self: flex-end;
-    position: relative;
-    height: 85%;
+    position: absolute;
+    height:72.5%;
     width: 100%;
     background-color: #2300ecb9;
 }
 
 .desc {
     display: block;
-    position: absolute;
+    position: relative;
     align-self: flex-end;
     text-align: left;
     font-size: 22px;
     padding: 1px;
     text-transform: uppercase;
     font-family: 'Merriweather', serif;
-    color: #7048fd;
+    color: #c6b8ff;
     z-index: 1;
 }
 
@@ -489,7 +490,6 @@ h4 {
         padding: 45px;
         text-transform: uppercase;
         font-family: 'Merriweather', serif;
-        color: #7048fd;
         z-index: 1;
     }
 
@@ -542,7 +542,140 @@ h4 {
         padding: 85px;
         text-transform: uppercase;
         font-family: 'Merriweather', serif;
-        color: #7048fd;
+        z-index: 1;
+    }
+
+}
+
+@media (min-width:1440px) {
+
+    #html5 {
+        position: relative;
+        align-self: center;
+        left: -50%;
+        bottom: 0px;
+        height: 245px;
+        z-index: 1;
+    }
+    
+    #css3 {
+        position: relative;
+        align-self: center;
+        left: -46.5%;
+        bottom: 0px;
+        height: 255px;
+        z-index: 1;
+    }
+    
+    #js6 {
+        position: relative;
+        align-self: center;
+        left: -49.5%;
+        bottom: 0px;
+        height: 165px;
+        z-index: 1;
+    }
+    
+    #sassscss {
+        position: relative;
+        align-self: center;
+        left: -38.5%;
+        bottom: 0px;
+        height: 285px;
+        z-index: 1;
+    }
+    
+    #react {
+        position: relative;
+        align-self: center;
+        left: 47.5%;
+        bottom: 0px;
+        height: 265px;
+        z-index: 1;
+    }
+    
+    #git {
+        position: relative;
+        align-self: center;
+        left: -47.5%;
+        bottom: 0px;
+        height: 190px;
+        z-index: 1;
+    }
+    
+
+    .html5_name {
+        font-size: 85px;
+    }
+    
+    .css3_name {
+        font-size: 85px;
+    }
+    .js6_name {
+        font-size: 85px;
+    }
+    .sassscss_name {
+        font-size: 85px;
+    }
+    
+    .react_name {
+        font-size: 85px;
+    }
+    
+    .git_name {
+        font-size: 85px;
+    }
+
+}
+
+@media (min-width:1440px) and (min-height:900px) {
+
+    .desc {
+        display: block;
+        position: absolute;
+        text-align: left;
+        bottom: 35px;
+        font-size: 50px;
+        padding: 60px;
+        text-transform: uppercase;
+        font-family: 'Merriweather', serif;
+        z-index: 1;
+    }
+
+}
+
+@media (min-width:1440px) and (min-height:1250px) {
+
+    .desc {
+        display: block;
+        position: absolute;
+        text-align: left;
+        bottom: 35px;
+        font-size: 60px;
+        padding: 85px;
+        text-transform: uppercase;
+        font-family: 'Merriweather', serif;
+        z-index: 1;
+    }
+
+}
+
+@media (min-width:1470px) {
+
+    h5 {
+        top: 0.5%;
+        font-size: 135px;
+    }
+
+    .desc {
+        display: block;
+        position: absolute;
+        text-align: left;
+        bottom: 35px;
+        font-size: 60.5px;
+        padding: 85px;
+        text-transform: uppercase;
+        font-family: 'Merriweather', serif;
         z-index: 1;
     }
 
