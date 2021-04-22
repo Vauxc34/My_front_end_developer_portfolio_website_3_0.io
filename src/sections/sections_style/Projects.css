@@ -237,7 +237,7 @@ span {
 
 }
 
-@media (min-width:1440px) {
+@media (min-width:1440px) and (orientation: landscape) {
 
     span{
         font-size: 70px;
@@ -260,5 +260,33 @@ span {
         font-size: 40px;
         margin: 20px;
     }
+
+}
+
+
+@media (orientation: landscape) {
+
+    span{
+        font-size: 20px;
+    }
+
+    .gamejolt{
+        font-size: 8px;
+        margin: 5px;    
+    }
+
+    .madmanrun_website{
+        font-size: 8px;
+        margin: 5px;
+    }
+
+    .gamejolt:hover{
+        font-size: 8px;
+        margin: 5px;    }
+
+    .madmanrun_website:hover{
+        font-size: 8px;
+        margin: 5px;
+    } 
 
 }

@@ -680,3 +680,50 @@ h4 {
     }
 
 }
+
+@media (orientation: landscape) {
+
+    .html5_name{
+        font-size: 32px;
+    }
+
+    .css3_name {
+        font-size: 32px;
+    }
+    .js6_name {
+        font-size: 32px;
+    }
+    .sassscss_name {
+        font-size: 32px;
+    }
+    
+    .react_name {
+        font-size: 32px;
+    }
+    
+    .git_name {
+        font-size: 32px;
+    }
+
+    .desc {
+        display: block;
+        position: absolute;
+        text-align: left;
+        bottom: 35px;
+        font-size: 20px;
+        padding: 1.5px;
+        text-transform: uppercase;
+        font-family: 'Merriweather', serif;
+        z-index: 1;
+    }
+
+    h4 {
+        font-size: 44px;
+    }
+
+    h5 {
+        top: 5px;
+        font-size: 50px;
+    }
+
+}

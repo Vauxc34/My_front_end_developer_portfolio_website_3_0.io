@@ -113,3 +113,21 @@ h2 {
     }
 
 }
+
+@media (orientation: landscape) {
+
+    #textarea {
+        top: 70px;
+        height: 40px;
+    }
+
+    #email__ {
+        top: 120px;
+    }
+
+    #contact_img {
+        height: 65%;
+        width: auto;
+    }
+
+}
