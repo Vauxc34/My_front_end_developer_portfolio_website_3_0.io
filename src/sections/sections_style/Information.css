@@ -681,7 +681,7 @@ h4 {
 
 }
 
-@media (orientation: landscape) {
+@media (min-height:320px) and (max-height:500px) and (orientation: landscape) {
 
     .html5_name{
         font-size: 32px;
@@ -724,6 +724,54 @@ h4 {
     h5 {
         top: 5px;
         font-size: 50px;
+    }
+
+}
+
+@media (max-height:1024px) and (max-width:600px) {
+
+    h5 {
+        font-size: 100px;
+    }
+
+    .desc {
+        display: block;
+        position: absolute;
+        text-align: left;
+        bottom: 115px;
+        font-size: 41px;
+        padding: 1.5px;
+        text-transform: uppercase;
+        font-family: 'Merriweather', serif;
+        z-index: 1;
+    }
+
+    h4 {
+        font-size: 52px;
+    }
+
+    #skills1 {
+        display: flex;
+        justify-content: center;
+        align-self: flex-start;
+        position: relative;
+        height: 50%;
+        width: 100%;
+        background-color: #7048fd;
+        background-size: 75%;
+        z-index: 0;
+        overflow: hidden;
+    }
+
+}
+
+@media (max-height:640px) {
+
+    #about_me_ {
+        top: 0px;
+        right: 0px;
+        height: auto;
+        width: 100%;
     }
 
 }
