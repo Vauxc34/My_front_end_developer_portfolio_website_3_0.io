@@ -89,48 +89,6 @@ h5 {
     right: 40px;
 }
 
-.pol_red {
-    font-size: 24px;
-    font-family: 'Merriweather', serif;
-    color: red;
-}
-
-.pol_white {
-    font-size: 24px;
-    font-family: 'Merriweather', serif;
-    color: white;
-}
-
-.tgf2_yellow {
-    font-size: 24px;
-    font-family: 'Merriweather', serif;
-    color: yellow;
-}
-
-.tgf2_red {
-    font-size: 24px;
-    font-family: 'Merriweather', serif;
-    color: red;
-}
-
-.mmf2_red {
-    font-size: 28px;
-    font-family: 'Merriweather', serif;
-    color: red;
-}
-
-.mmf2_blue {
-    font-size: 28px;
-    font-family: 'Merriweather', serif;
-    color: blue;
-}
-
-.programming {
-    font-size: 28px;
-    font-family: 'Merriweather', serif;
-    color: green;
-}
-
 /* */
 
 #working_man {
@@ -750,6 +708,10 @@ h4 {
         font-size: 52px;
     }
 
+    #knowledge {
+        bottom: -.05%;
+    }
+
     #skills1 {
         display: flex;
         justify-content: center;
@@ -772,6 +734,63 @@ h4 {
         right: 0px;
         height: auto;
         width: 100%;
+    }
+
+}
+
+@media (max-height:640px) and (max-width:360px) {
+
+    #actual_skills {
+        height: 95%;
+    }
+
+    h5 {
+        font-size: 60px;
+    }
+
+    .desc {
+        bottom: 52px;
+        font-size: 24px;
+        padding: .25px;
+    }
+
+    #about_me_ {
+        top: 0px;
+        right: 0px;
+        height: 100%;
+        width: auto;
+    }
+
+    #skill1 {
+        height: 35%;
+    }
+
+    #skill2 {
+        height: 35%;
+    }
+
+    #skill3 {
+        height: 35%;
+    }
+
+    #skill4 {
+        height: 35%;
+    }
+
+    #skill5 {
+        height: 35%;
+    }
+
+    #skill6 {
+        height: 35%;
+    }
+
+    h4 {
+        font-size: 30px;
+    }
+
+    #knowledge {
+        bottom: -.55%;
     }
 
 }
