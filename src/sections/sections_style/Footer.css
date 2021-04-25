@@ -4,7 +4,7 @@
     display: flex;
     justify-content: center;
     align-self: flex-end;
-    position: absolute;
+    position: relative;
     height: 18%;
     width: 100%;
     background-image: linear-gradient(black, darkblue);
@@ -26,27 +26,27 @@ form {
 h2 {
     position: absolute;
     text-transform: uppercase;
-    font-size: 22px;
+    font-size: 36px;
     font-family: 'Lobster', cursive;
     color: white;
     z-index: 2;
 }
 
 #textarea {
-    position: absolute;
+    position: relative;
     text-align: center;
     font-size: 16px;
-    top:10%;
-    height: 50%;
-    width: 60%;
+    top: 17.5%;
+    height: 40%;
+    width: 90%;
     z-index: 1;
 }
 
 #email__ {
     position: absolute;
-    height: 35px;
+    padding: 15px;
     width: 40%;
-    top: 62%;
+    top: 60%;
     text-align: center;
     border: none;
     border-radius: 25px;
@@ -69,6 +69,7 @@ h2 {
     text-transform: uppercase;
     border: none;
     border-radius: 25px;
+    padding: 15px;
     z-index: 1;
     cursor: pointer;
 }
@@ -95,90 +96,23 @@ h2 {
 
 #email {
     align-self: center;
-    font-size:medium;
+    font-size:x-large;
 }
 
 /* media querie's */
 
-@media (min-width: 370px) {
-
-    #contact_img {
-        bottom: 0px;
-        left: 0px;
-        height: auto;
-        width: 100%;
-        z-index: 0;
-    }
-
-}
-
-@media (min-width: 280px) {
-
-    #footer {
-        height: 10%;
-    }
-
-    #textarea {
-        top: 25%;
-    }
-    #email__ {
-        top: 80%;
-    }
-
-    #send_btn {
-        top: 110%;
-        height: 20%;
-    }
-
-    #email {
-        font-size: small;
-    }
-
-}
-
 @media (min-width: 600px) {
-
     #contact_img {
         bottom: 0px;
         left: 0px;
-        height: 65%;
+        height: 70%;
         width: auto;
         z-index: 0;
     }
-
 }
 
-@media (min-width: 636px) {
-
+@media (min-width: 100px) and (max-width: 640px) {
     #footer {
         height: 10%;
-    }
-
-    #textarea {
-        top: 20%;
-    }
-
-    #email__ {
-        top: 75%;
-    }
-
-    #send_btn {
-        top: 100%;
-        height: 20%;
-    }
-
-}
-
-@media (min-width: 640px) {
-    #footer {
-        height: 18%;
-    }
-
-    #contact_img {
-        bottom: 0px;
-        left: 0px;
-        height: 50%;
-        width: auto;
-        z-index: 0;
     }
 }
