@@ -111,8 +111,145 @@ h2 {
     }
 }
 
-@media (min-width: 100px) and (max-width: 640px) {
+@media (min-width: 100px) and (max-height: 640px) {
+
+    h2 {
+        font-size: medium;
+    }
+
+    #send_btn {
+        top: 95%;
+    }
+
     #footer {
         height: 10%;
     }
+
+    #email {
+        font-size: small;
+    }
+
 }
+
+@media (min-width:320px) {
+
+    #send_btn {
+
+        top: 100%;
+
+    }
+
+    #contact_email {
+
+        height: 12%;
+    }
+
+}
+
+@media (max-width: 240px) and (max-height:320px) {
+
+    #textarea {
+        top: 32%;
+    }
+
+    #email__ {
+        top: 80%;
+        padding: 7px;
+    }
+
+    #send_btn {
+        top: 122%;
+        padding: 7px;
+    }
+
+    #contact_email {
+
+    height: 15%;
+
+    } 
+
+}
+
+@media (min-width: 360px) and (min-height: 640px) {
+
+    h2 {
+        font-size: 20px;
+    }
+
+    #send_btn {
+
+        top: 90%;
+
+    }
+
+    #contact_email {
+        height: 15%;
+    }
+
+}
+
+@media (min-width: 640px) and (min-height:360px) {
+
+    #footer {
+    height: 18%;
+    }
+
+    h2 {
+        font-size: 18px;
+    }
+
+    #send_btn {
+        top: 90%;
+    }
+
+    #email {
+        font-size: small;
+    }
+
+}
+
+@media (max-width: 540px) {
+
+    #footer {
+        height: 10%;
+    }
+
+}
+
+@media (max-width:280px) and (max-height: 653px) {
+
+    h2 {
+        font-size: 16px;
+    }
+
+    #send_btn {
+        top:90%;
+    }
+
+    #contact_email {
+        height: 10%;
+    }
+
+    #email {
+        font-size: small;
+    }
+
+}
+
+@media (min-width:768px) {
+
+    h2 {
+        font-size: 50px;
+    }
+
+    #email {
+        font-size: xx-large;
+    }
+
+    #contact_email {
+        height: 7%;
+    }
+
+}
+
+/* new media querie's */
