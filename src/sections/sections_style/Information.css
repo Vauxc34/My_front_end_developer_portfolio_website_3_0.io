@@ -727,7 +727,15 @@ h4 {
 
 }
 
-@media (max-height:640px) {
+@media (min-height: 1280px) {
+
+    h5 {
+        font-size: 120px;
+    }
+
+}
+
+@media (min-height:640px) {
 
     #about_me_ {
         top: 0px;
@@ -738,7 +746,7 @@ h4 {
 
 }
 
-@media (max-height:640px) and (max-width:360px) {
+@media (min-height:640px) and (max-width:360px) {
 
     #actual_skills {
         height: 95%;
@@ -794,5 +802,6 @@ h4 {
     }
 
 }
+
 
 /* new media Querie's */

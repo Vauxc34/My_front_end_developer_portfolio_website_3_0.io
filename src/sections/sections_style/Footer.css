@@ -252,4 +252,12 @@ h2 {
 
 }
 
+@media (max-width: 600px) and (min-height: 1024px) {
+
+    #footer {
+        height: 10%;
+    }
+
+}
+
 /* new media querie's */
