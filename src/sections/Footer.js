@@ -10,9 +10,9 @@ const Footer = () => (
 
     <form action="">
         <h2>any question's?</h2>
-        <input type="textarea" id="textarea"></input>
-        <input type="textarea" id="email__"></input>
-        <input type="button" id="send_btn"></input>
+        <input type="textarea" id="textarea" placeholder="type something if you have some question's :)"></input>
+        <input type="textarea" id="email__" placeholder="type your e-mail"></input>
+        <input type="button" id="send_btn" value="send!"></input>
     </form>
 
     <div id="contact_email">
