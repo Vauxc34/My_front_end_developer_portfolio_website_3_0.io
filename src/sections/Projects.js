@@ -18,7 +18,7 @@ const Projects = () => (
 </div>
 <div id="project2">
     <span id="info">checker's</span>
-    <a className="madmanrun_website" href="https://github.com/Vauxc34/checkers_alpha1/">[github]</a>
+    <a className="madmanrun_website" href="https://vauxc34.github.io/checkers_alpha1.io/">[github]</a>
     <div id="prj2"></div>
 </div>
 <div id="project3">
