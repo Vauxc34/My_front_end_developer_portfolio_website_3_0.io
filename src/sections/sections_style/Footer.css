@@ -5,17 +5,22 @@
     justify-content: center;
     align-self: flex-end;
     position: absolute;
-    height: 70vh;
+    height: 18%;
     width: 100%;
     background-image: linear-gradient(black, darkblue);
     z-index: 1;
+    overflow: hidden;
 }
 
 form {
+    position: relative;
     align-self: flex-start;
     display: flex;
     justify-content: center;
     margin: 20px;
+    border-radius: 25px;
+    height: 50%;
+    width: 100%;
 }
 
 h2 {
@@ -31,8 +36,8 @@ h2 {
     position: absolute;
     text-align: center;
     font-size: 16px;
-    top:15%;
-    height: 100px;
+    top:10%;
+    height: 50%;
     width: 60%;
     z-index: 1;
 }
@@ -40,8 +45,8 @@ h2 {
 #email__ {
     position: absolute;
     height: 35px;
-    width: 300px;
-    top: 40%;
+    width: 40%;
+    top: 62%;
     text-align: center;
     border: none;
     border-radius: 25px;
@@ -58,9 +63,9 @@ h2 {
 
 #send_btn {
     position: absolute;
-    top: 50%;
-    height: 50px;
-    width: 150px;
+    top: 75%;
+    height: 10%;
+    width: 30%;
     text-transform: uppercase;
     border: none;
     border-radius: 25px;
@@ -84,561 +89,96 @@ h2 {
     z-index: 2;
     border-top: 2px solid black;
     background-color: #004c8bb0;
-    height: 75px;
+    height: 8%;
     width: 300%;
 }
 
 #email {
     align-self: center;
-    font-size: 24px;
+    font-size:medium;
 }
 
 /* media querie's */
 
-@media (min-width: 700px) {
+@media (min-width: 370px) {
 
     #contact_img {
-        height: 65%;
-        width: auto;
+        bottom: 0px;
+        left: 0px;
+        height: auto;
+        width: 100%;
+        z-index: 0;
     }
-
-
 
 }
 
-@media (min-width: 550px) {
+@media (min-width: 280px) {
 
     #footer {
-        height: 90vh;
-    }
-
-}
-
-@media (min-height:320px) and (max-height:500px) and (orientation: landscape) {
-
-    #textarea {
-        top: 70px;
-        height: 40px;
-    }
-
-    #email__ {
-        top: 120px;
-    }
-
-    #contact_img {
-        height: 65%;
-        width: auto;
-    }
-
-}
-
-@media (max-height:1024px) and (max-width:600px) {
-
-    #footer {
-        height: 50vh;
-    }
-
-}
-
-@media (max-width:360px) and (max-height:640px) {
-
-    #textarea {
-        top: 52.5px;
-        height: 60px;
-    }
-
-    #email__ {
-        top: 120px;
-    }
-
-}
-
-/* new media queries 
-
-@media (max-width:800px) and (max-height:1280px) {
-
-    h2 {
-        font-size: 42px;
-    }
-
-    #textarea {
-        top: 7.5%;
-        height: 350px;
-        width: 80%;
-    }
-
-    #email__ {
-        top: 42.5%;
-        width: 80%;
-    }
-
-    #send_btn {
-        width: 80%;
-    }
-
-}
-
-@media (max-width:384px) and (max-height:640px) {
-
-    h2 {
-        font-size: 26px;
-    }
-
-    #textarea {
-        top: 20%;
-        height: 60px;
-        width: 80%;
-    }
-
-    #email__ {
-        top: 40%;
-        width: 80%;
-    }
-
-    #send_btn {
-        top: 52.5%;
-        width: 60%;
-    }
-
-}
-
-@media (max-width:640px) and (max-height:360px) {
-
-    h2 {
-        font-size: 26px;
-    }
-
-    #textarea {
-        top: 20%;
-        height: 55px;
-        width: 80%;
-    }
-
-    #email__ {
-        top: 40%;
-        width: 80%;
-    }
-
-    #send_btn {
-        top: 52.5%;
-        width: 60%;
-    }
-
-}
-
-@media (max-width:800px) and (max-height:1280px) {
-
-    h2 {
-        font-size: 58px;
-    }
-
-    #textarea {
-        top: 9.5%;
-    }
-
-    #email__ {
-        height: 50px;
-    }
-
-    #send_btn {
-        width: 45%;
-    }
-
-}
-
-@media (max-width:384px) and (max-height:640px) {
-
-    h2 {
-        font-size: 26px;
-    }
-
-    #textarea {
-        top: 20%;
-        height: 55px;
-        width: 80%;
-    }
-
-    #email__ {
-        top: 40%;
-        width: 80%;
-    }
-
-    #send_btn {
-        top: 57.5%;
-        width: 60%;
-    }
-
-}
-
-@media (max-width:360px) and (max-height:640px) {
-
-    h2 {
-        font-size: 20px;
-    }
-
-    #textarea {
-        top: 20%;
-        height: 55px;
-        width: 80%;
-    }
-
-    #email__ {
-        top: 41.5%;
-        width: 80%;
-        height: 15%;
-    }
-
-    #send_btn {
-        top: 58.5%;
-        height: 12.5%;
-        width: 60%;
-    }
-
-}
-
-@media (max-width:412px) and (max-height:732px) {
-
-    h2 {
-        font-size: 20px;
-    }
-
-    #textarea {
-        top: 20%;
-        height: 55px;
-        width: 80%;
-    }
-
-    #email__ {
-        top: 41.5%;
-        width: 80%;
-        height: 15%;
-    }
-
-    #send_btn {
-        top: 58.5%;
-        height: 12.5%;
-        width: 60%;
-    }
-
-}
-
-@media (max-width:600px) and (max-height:960px) {
-
-    h2 {
-        font-size: 34px;
-    }
-
-    #textarea {
-        top: 15%;
-        height: 100px;
-        width: 80%;
-    }
-
-    #email__ {
-        top: 38.5%;
-        width: 80%;
         height: 10%;
     }
 
-    #send_btn {
-        top: 50.5%;
-        height: 12.5%;
-        width: 60%;
-    }
-
-}
-
-@media (max-width:320px) and (max-height:533px) {
-
-    h2 {
-        font-size: 22px;
-    }
-
     #textarea {
-        top: 20%;
-        height: 50px;
-        width: 80%;
+        top: 25%;
     }
-
     #email__ {
-        top: 41.5%;
-        width: 80%;
-        height: 11%;
+        top: 80%;
     }
 
     #send_btn {
-        top: 55.5%;
-        height: 12.5%;
-        width: 60%;
-    }
-
-}
-
-@media (max-width:480px) and (max-height:854px) {
-
-    h2 {
-        font-size: 22px;
-    }
-
-    #textarea {
-        top: 13.5%;
-        height: 105px;
-        width: 80%;
-    }
-
-    #email__ {
-        top: 41.5%;
-        width: 80%;
-        height: 11%;
-    }
-
-    #send_btn {
-        top: 55.5%;
-        height: 12.5%;
-        width: 60%;
-    }
-
-}
-
-@media (max-width:768px) and (max-height:1024px) {
-
-    h2 {
-        font-size: 72px;
-    }
-
-    #textarea {
-        top: 13.5%;
-        height: 240px;
-        width: 80%;
-    }
-
-    #email__ {
-        top: 41.5%;
-        width: 80%;
-        height: 5%;
-    }
-
-    #send_btn {
-        top: 48.5%;
-        height: 5%;
-        width: 60%;
-    }
-
-}
-
-@media (max-width:320px) and (max-height:480px) {
-
-    h2 {
-        font-size: 18px;
-    }
-
-    #textarea {
-        top: 20%;
-        height: 50px;
-        width: 80%;
-    }
-
-    #email__ {
-        top: 41.5%;
-        width: 80%;
-        height: 11%;
-    }
-
-    #send_btn {
-        top: 53.75%;
-        height: 12.5%;
-        width: 60%;
-    }
-
-}
-
-@media (max-width:240px) and (max-height:320px) {
-
-    h2 {
-        font-size: 6px;
-    }
-
-    #textarea {
-        top: 20%;
-        height: 36px;
-        width: 80%;
-    }
-
-    #email__ {
-        top: 45.5%;
-        width: 80%;
-        height: 11%;
-    }
-
-    #send_btn {
-        top: 60%;
-        height: 12.5%;
-        width: 60%;
-    }
-
-    #contact_email {
+        top: 110%;
         height: 20%;
     }
 
     #email {
-        font-size: 12px;
+        font-size: small;
     }
 
 }
 
+@media (min-width: 600px) {
 
-@media (min-width:360px) and (min-height:640px) {
+    #contact_img {
+        bottom: 0px;
+        left: 0px;
+        height: 65%;
+        width: auto;
+        z-index: 0;
+    }
 
-    h2 {
-        font-size: 20px;
+}
+
+@media (min-width: 636px) {
+
+    #footer {
+        height: 10%;
     }
 
     #textarea {
         top: 20%;
-        height: 55px;
-        width: 80%;
     }
 
     #email__ {
-        top: 41.5%;
-        width: 80%;
-        height: 15%;
+        top: 75%;
     }
 
     #send_btn {
-        top: 58.5%;
-        height: 12.5%;
-        width: 60%;
-    }
-
-}
-
-@media (max-width:320px) and (max-height:568px) {
-
-    h2 {
-        font-size: 18px;
-    }
-
-    #textarea {
-        top: 20%;
-        height: 50px;
-        width: 80%;
-    }
-
-    #email__ {
-        top: 41.5%;
-        width: 80%;
-        height: 11%;
-    }
-
-    #send_btn {
-        top: 53.75%;
-        height: 12.5%;
-        width: 60%;
-    }
-
-}
-
-@media (max-width:768px) and (max-width:1024px) {
-
-    h2 {
-        font-size: 90px;
-    }
-
-    #textarea {
-        height: 185px;
-    }
-
-    #email__ {
-        height: 7.5%;
-    }
-
-    #send_btn {
-        top: 50%;
-        height: 7.5%;
-    }
-
-}
-
-@media (max-width:1024px) and (max-width:1366px) {
-
-    h2 {
-        font-size: 90px;
-    }
-
-    #textarea {
-        top: 14%;
-        height: 260px;
-    }
-
-    #email__ {
-        top: 37%;
-        height: 7.5%;
-    }
-
-    #send_btn {
-        top: 46%;
-        height: 7.5%;
-    }
-
-}
-
-@media (max-width:540px) and (max-height:720px) {
-
-    h2 {
-        font-size: 20px;
-    }
-
-    #textarea {
-        top: 13.5%;
-        height: 95px;
-        width: 80%;
-    }
-
-    #email__ {
-        top: 41.5%;
-        width: 80%;
-        height: 11%;
-    }
-
-    #send_btn {
-        top: 55.5%;
-        height: 12.5%;
-        width: 60%;
-    }
-
-}
-
-@media (max-width:280px) and (max-height:653px) {
-
-    h2 {
-        font-size: 26px;
-    }
-
-    #textarea {
-        top: 20%;
-        height: 75px;
-        width: 80%;
-    }
-
-    #email__ {
-        top: 45.5%;
-        width: 80%;
-        height: 11%;
-    }
-
-    #send_btn {
-        top: 60%;
-        height: 12.5%;
-        width: 60%;
-    }
-
-    #contact_email {
+        top: 100%;
         height: 20%;
     }
 
-    #email {
-        font-size: 26px;
+}
+
+@media (min-width: 640px) {
+    #footer {
+        height: 18%;
     }
 
-} */
+    #contact_img {
+        bottom: 0px;
+        left: 0px;
+        height: 50%;
+        width: auto;
+        z-index: 0;
+    }
+}

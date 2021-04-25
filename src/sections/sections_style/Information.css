@@ -3,7 +3,7 @@
 #information {
     display: flex;
     justify-content: center;
-    position: absolute;
+    position: relative;
     top: 200vh;
     height: 250vh;
     width: 100%;

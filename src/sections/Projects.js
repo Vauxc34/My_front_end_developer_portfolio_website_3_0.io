@@ -14,12 +14,12 @@ const Projects = () => (
     <span id="info_about_desktop">five night's at doge</span>
     <a className="gamejolt" href="https://gamejolt.com/games/fnad0-1alpha/601491">[gamejolt]</a>
     <div id="glitch_effect"></div>
-    <img id="prj1" src={project1} alt="prj1"></img>
+    <div id="prj1"></div>
 </div>
 <div id="project2">
     <span id="info">checker's</span>
     <a className="madmanrun_website" href="https://github.com/Vauxc34/checkers_alpha1/">[github]</a>
-    <img id="prj3" src={project3} alt="prj3"></img>
+    <div id="prj2"></div>
 </div>
 <div id="project3">
     <span id="info">mini app's</span>
