@@ -312,10 +312,7 @@ h4 {
     #skills1 {height: 40%;}
 
     #about_me_ {
-        top: -25px;
-        right: 0px;
-        height: 100%;
-        width: auto;
+        bottom: 0px;
     }
 
     h4 {
@@ -340,7 +337,7 @@ h4 {
     }
 
     .desc {
-        font-size: 39px;
+        font-size: 40px;
     }
 
     #skills1 {
@@ -553,6 +550,10 @@ h4 {
         font-size: 30px;
     }
 
+    .desc {
+        font-size: 24px;
+    }
+
     #knowledge {
         bottom: -.55%;
     }
@@ -582,13 +583,12 @@ h4 {
     }
 
     h5 {
+        top:3%;
         font-size: 140px;
     }
 
     .desc {
-        padding: .25px;
-        font-size: 48.15px;
-        bottom: 10%;
+        font-size: 50px;
     }
 
     h4 {
@@ -605,7 +605,7 @@ h4 {
     }
     
     .desc {
-        top: 11%;
+        font-size: 86px;
     }
 
     #about_me_ {
@@ -622,7 +622,7 @@ h4 {
     }
     
     .desc {
-        top: 3%;
+        top: 0%;
         font-size: 50px;
     }
 
@@ -723,8 +723,8 @@ h4 {
 
     .desc {
         
-        top: 12%;
-        font-size: 54px;
+        top: 1%;
+        font-size: 64px;
     }
 
     h5 {

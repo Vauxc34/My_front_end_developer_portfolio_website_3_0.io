@@ -27,8 +27,8 @@ const Information = () => (
         
         <h5>about me</h5>
         <img id="about_me_" src={about_Mee}></img>
-        <p className="desc">Beginner front end programist and Student living in a small village in Poland. who started in 2014 writing some basic games in The Games Factory 2 Multimedia Fusion 2. Currently i have 18 year's old and i starting this journey with programming again. Creativity and beign helpful is my strong side. <br></br><br></br></p>
         <div id="description">
+        <p className="desc">Beginner front end programist and Student living in a small village in Poland. who started in 2014 writing some basic games in The Games Factory 2 Multimedia Fusion 2. Currently i have 18 year's old and i starting this journey with programming again. Creativity and beign helpful is my strong side. <br></br><br></br></p>
         </div>
         </div>
     </div>
