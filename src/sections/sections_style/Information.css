@@ -87,7 +87,6 @@ h5 {
 
 #about_me_ {
     top: 0px;
-    right: 40px;
 }
 
 /* */
@@ -287,34 +286,8 @@ h4 {
         font-size: 32px;
     }
 
-    .desc {
-        display: block;
-        position: absolute;
-        text-align: left;
-        bottom: 35px;
-        font-size: 20px;
-        padding: 1.5px;
-        text-transform: uppercase;
-        font-family: 'Merriweather', serif;
-        z-index: 1;
-    }
-
     h4 {
         font-size: 44px;
-    }
-
-    h5 {
-        top: 5px;
-        font-size: 50px;
-    }
-
-}
-
-@media (min-width:100px) {
-
-    #about_me_ {
-        top: 0px;
-        left: 0px;
     }
 
 }
@@ -335,18 +308,6 @@ h4 {
 }
 
 @media (min-width:581px) {
-
-    .desc {
-        display: block;
-        position: absolute;
-        text-align: left;
-        bottom: 25px;
-        font-size: 45px;
-        padding: 45px;
-        text-transform: uppercase;
-        font-family: 'Merriweather', serif;
-        z-index: 1;
-    }
 
     #skills1 {height: 40%;}
 
@@ -370,24 +331,16 @@ h4 {
         font-size: 100px;
     }
 
-    .desc {
-        display: block;
-        position: absolute;
-        text-align: left;
-        bottom: 115px;
-        font-size: 41px;
-        padding: 1.5px;
-        text-transform: uppercase;
-        font-family: 'Merriweather', serif;
-        z-index: 1;
-    }
-
     h4 {
         font-size: 52px;
     }
 
     #knowledge {
         bottom: -.05%;
+    }
+
+    .desc {
+        font-size: 39px;
     }
 
     #skills1 {
@@ -402,14 +355,6 @@ h4 {
         z-index: 0;
         overflow: hidden;
     }
-
-    #about_me_ {
-        position: absolute;
-        height: 105%;
-        width: auto;
-        filter: blur(3px);
-    }
-
 }
 
 @media (min-width: 640px) {
@@ -520,7 +465,7 @@ h4 {
         position: relative;
         height: 40%;
         width: 33.5%;
-        top: 37.6%;
+        top: 37.2%;
         align-self: flex-start;
     }
 
@@ -528,7 +473,7 @@ h4 {
         position: relative;
         height: 40%;
         width: 33.5%;
-        top: 37.6%;
+        top: 37.2%;
         align-self: flex-start;
     }
 
@@ -536,7 +481,7 @@ h4 {
         position: relative;
         height: 40%;
         width: 33.5%;
-        top: 37.6%;
+        top: 37.2%;
         align-self: flex-start;
     }
 
@@ -551,35 +496,26 @@ h4 {
         bottom: 0px;
     }
 
-    #about_me_ {
-        top: 150px;
-        right: 30%;
-        height: 100%;
-        width: auto;
-        filter: blur(4px);
-    }
-
     h4 {
         position: absolute;
         align-self: flex-end;
         font-size: 68px;
     }
 
-    .desc {
-        font-size: 36px;
-        padding: 20px;
+    h5 {
+        top: 0px;
+        font-size: 53px;
     }
 
-}
-
-@media (max-height:640px) {
+    .desc {
+        font-size: 18px;
+        padding: .1px;
+    }
 
     #about_me_ {
-        top: 0px;
-        right: 0px;
-        height: auto;
-        width: 100%;
+        height: 110%;
     }
+    
 
 }
 
@@ -587,23 +523,6 @@ h4 {
 
     #actual_skills {
         height: 95%;
-    }
-
-    h5 {
-        font-size: 60px;
-    }
-
-    .desc {
-        bottom: 52px;
-        font-size: 21px;
-        padding: 1px;
-    }
-
-    #about_me_ {
-        top: 0px;
-        right: 0px;
-        height: 100%;
-        width: auto;
     }
 
     #skill1 {
@@ -640,38 +559,9 @@ h4 {
 
 }
 
-@media (min-width: 675px) {
-  
-    #about_me_ {
-        top: -7.5%;
-        right: 0px;
-        height: auto;
-        width: 100%;
-    }
-
-}
-
 @media (min-width: 800px) {
 
-    .desc {
-        top: 16%;
-        font-size: 48px;
-    }
-
-    #description {
-        top: 17%;
-        height: 60%;
-    }
-
-    #about_me_ {
-        top: 0px;
-        right: 0px;
-        height: 100%;
-        width: auto;
-    }
-
     #skill4 {
-
         top: 37.5%;
         height: 52%;
 
@@ -691,49 +581,57 @@ h4 {
 
     }
 
+    h5 {
+        font-size: 140px;
+    }
+
+    .desc {
+        padding: .25px;
+        font-size: 48.15px;
+        bottom: 10%;
+    }
+
     h4 {
         font-size: 71px;
     }
 
 }
 
-@media (min-height: 1280px) {
-
-    h5 {
-        font-size: 120px;
-    }
-
-}
-
 @media (min-width:1280px) {
 
-    #about_me_ {
-        height: auto;
-        width: 100%;
-        filter: blur(0px);
+    h5 {
+        top: 0px;
+        font-size: 115px;
     }
-
-    h4 {
-        font-size: 43px;
-    }
-
-}
-
-@media (min-width:1281px) {
-
+    
     .desc {
-        display: block;
-        position: absolute;
-        text-align: left;
-        bottom: 35px;
-        font-size: 60px;
-        padding: 85px;
-        text-transform: uppercase;
-        font-family: 'Merriweather', serif;
-        z-index: 1;
+        top: 11%;
+    }
+
+    #about_me_ {
+        height: 110%;
     }
 
 }
+
+@media (min-width:1280px) and (min-height:950px) {
+
+    h5 {
+        top: 0px;
+        font-size: 115px;
+    }
+    
+    .desc {
+        top: 3%;
+        font-size: 50px;
+    }
+
+    #about_me_ {
+        height: 110%;
+    }
+
+}
+
 
 @media (min-width:1440px) {
 
@@ -816,68 +714,26 @@ h4 {
 
 }
 
-@media (min-width:1440px) and (min-height:900px) {
-
-    h5 {
-        font-size: 66px;
-    }
-
-    .desc {
-        display: block;
-        position: absolute;
-        text-align: left;
-        bottom: 35px;
-        font-size: 48px;
-        padding: 10px;
-        text-transform: uppercase;
-        font-family: 'Merriweather', serif;
-        z-index: 1;
-    }
+@media (min-width:1440px) and (max-height:900px) {
 
     #about_me_ {
-        height: auto;
-        width: 100%;
-        filter: blur(0px);
+
+        top: 0px;
     }
-
-}
-
-@media (min-width:1440px) and (min-height:1250px) {
 
     .desc {
-        display: block;
-        position: absolute;
-        text-align: left;
-        bottom: 35px;
-        font-size: 60px;
-        padding: 85px;
-        text-transform: uppercase;
-        font-family: 'Merriweather', serif;
-        z-index: 1;
+        
+        top: 12%;
+        font-size: 54px;
     }
-
-}
-
-@media (min-width:1470px) {
 
     h5 {
-        top: 0.5%;
-        font-size: 135px;
+        top:0px;
+        font-size: 125px;
     }
-
-    .desc {
-        display: block;
-        position: absolute;
-        text-align: left;
-        bottom: 35px;
-        font-size: 60.5px;
-        padding: 85px;
-        text-transform: uppercase;
-        font-family: 'Merriweather', serif;
-        z-index: 1;
-    }
-
 }
+
+
 
 
 
