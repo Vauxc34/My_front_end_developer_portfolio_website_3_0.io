@@ -50,6 +50,7 @@
     height: 50%;
     width: 100%;
     background-image: url(../images/desk.jpg);
+    background-size: 75%;
 }
 
 h5 {
