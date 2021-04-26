@@ -7,7 +7,7 @@
     position: relative;
     height: 18%;
     width: 100%;
-    background-color: black;
+    background-color: #001a2b;
     z-index: 1;
     overflow: hidden;
 }
@@ -32,6 +32,10 @@ h2 {
     z-index: 2;
 }
 
+input {
+    background-color: transparent;
+}
+
 #textarea {
     position: relative;
     text-align: center;
@@ -40,6 +44,9 @@ h2 {
     height: 40%;
     width: 90%;
     z-index: 1;
+    border-radius: 25px;
+    border: none;
+    background-image: linear-gradient(transparent, white 35%);
 }
 
 #email__ {
@@ -50,6 +57,7 @@ h2 {
     text-align: center;
     border: none;
     border-radius: 25px;
+    background-image: linear-gradient(white 55%, transparent);
 }
 
 #email__::placeholder {
@@ -59,6 +67,7 @@ h2 {
 
 ::placeholder {
     text-transform: uppercase;
+    font-family: 'Merriweather', serif;
 }
 
 #send_btn {
@@ -72,6 +81,14 @@ h2 {
     padding: 15px;
     z-index: 1;
     cursor: pointer;
+    font-size: 8px;
+    transition: .25s;
+    background-image: linear-gradient(transparent, white 50%);
+    font-family: 'Lobster', cursive;
+}
+
+#send_btn:active {
+    opacity: .25;
 }
 
 #contact_img {

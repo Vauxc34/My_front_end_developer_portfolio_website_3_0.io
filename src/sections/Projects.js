@@ -1,9 +1,5 @@
 import React from 'react'
 import './sections_style/Projects.css'
-
-import project1 from './images/thumbnail.png'
-import project3 from './images/checkers.png'
-import project2 from './images/mini_apps.png'
 import project6 from './images/madmanrun.png'
 
 const Projects = () => (
@@ -18,13 +14,13 @@ const Projects = () => (
 </div>
 <div id="project2">
     <span id="info">checker's</span>
-    <a className="madmanrun_website" href="https://vauxc34.github.io/checkers_alpha1.io/">[github]</a>
+    <a className="madmanrun_website" href="https://vauxc34.github.io/checkers_alpha1.io/">[play! (PC only)]</a>
     <div id="prj2"></div>
 </div>
 <div id="project3">
     <span id="info">mini app's</span>
     <a className="madmanrun_website" href="https://github.com/Vauxc34?tab=repositories">[github]</a>
-    <img id="prj2" src={project2} alt="prj2"></img>
+    <div id="prj3"></div>
     
 </div>
 <div id="project4">

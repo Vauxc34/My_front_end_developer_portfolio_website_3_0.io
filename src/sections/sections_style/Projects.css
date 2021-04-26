@@ -99,7 +99,7 @@ span {
     position: relative;
     height:50%;
     width:100%;
-    background-image: linear-gradient(#0000009c, #0b006b 115%);
+    background-image: linear-gradient(#0000009c, #0e0e14 115%);
     overflow: hidden;
 }
 
@@ -107,10 +107,16 @@ span {
     position: absolute;
     left: 0px;
     bottom: 0px;
-    height: auto;
+    height: 100%;
     width: 100%; 
-    z-index: -5;  
+    background-image: url(../images/mini_apps.png);
+    background-position: 50%;
+    background-size: auto 100%;
+    background-repeat: no-repeat;
+    z-index: -1;
 }
+
+
 
 #project4 {
     display: flex;
@@ -168,19 +174,78 @@ span {
 
 /* media querie's */
 
-@media (min-width:360px) and (min-height: 640px) {
+@media (min-width: 280px) {
 
-#prj2 {
-    position: absolute;
-    height: 100%;
-    width: 100%;
-    background-image: url(../images/checkers.png);
-    background-repeat: no-repeat; 
-    background-size: 100%;
-    background-position: 25%;
-    z-index: -1;    
+    span {
+        font-size: xx-large;
+    }
+
+    #prj3 {
+        background-size: 100%;
+    }
+
 }
 
+@media (min-width: 320px) and (min-height: 480px) {
+    span {
+        font-size: x-large;
+    }
+
+    #prj3 {
+        background-size: 100%;
+    }
+}
+
+@media (min-height:320px) and (min-height:500px) and (orientation: landscape) {
+
+    span{
+        font-size: 20px;
+    }
+
+    .gamejolt{
+        font-size: 8px;
+        margin: 5px;    
+    }
+
+    .madmanrun_website{
+        font-size: 8px;
+        margin: 5px;
+    }
+
+    .gamejolt:hover{
+        font-size: 8px;
+        margin: 5px;    }
+
+    .madmanrun_website:hover{
+        font-size: 8px;
+        margin: 5px;
+    } 
+
+}
+
+@media (min-width:320px) and (min-height: 533px) {
+
+    span {
+        font-size: xx-large;
+    }
+
+    #prj3 {
+        background-size: 100%;
+    }
+
+}
+
+@media (min-width:360px) and (min-height: 640px) {
+
+    #prj2 {
+        background-size: 100%;
+        background-position: 25%;
+    }
+    
+    #prj3 {
+        background-size: 100%;
+    }
+    
 }
 
 @media (min-width: 650px) {
@@ -206,20 +271,7 @@ span {
     }
 
     #prj2 {
-        position: absolute;
-        height: 100%;
-        width: 100%;
-        background-image: url(../images/checkers.png);
-        background-repeat: no-repeat; 
-        background-size: 100% 50%;
-        background-position: 0% 0%;
-        z-index: -1;
-    }
-
-    #prj3{
-        height: auto;
-        width: 100%;
-        z-index: -1;
+        background-size: 35%;
     }
     
     #prj4{
@@ -271,6 +323,47 @@ span {
 
 }
 
+@media (min-width: 651px) {
+    
+    #prj2 {
+        background-size: 15%;
+    }
+
+}
+
+@media (min-width: 768px) {
+
+    #prj2 {
+        background-size: 400%;
+        background-position: 25%;
+    }
+
+    #prj3 {
+        background-size: 360%;
+    }
+
+}
+
+@media (min-width: 800px) {
+
+    #prj2 {
+        background-size: 400%
+    }
+
+    #prj3 {
+        background-size: 450%;
+    }
+
+}
+
+@media (min-width: 1000px) {
+
+    #prj2 {
+        background-position: 100%;
+    }
+
+}
+
 @media (min-width:1000px) and (orientation: landscape) {
 
     span{
@@ -298,108 +391,83 @@ span {
 
 }
 
+@media (min-width: 1024px) {
 
-@media (min-height:320px) and (min-height:500px) and (orientation: landscape) {
-
-    span{
-        font-size: 20px;
-    }
-
-    .gamejolt{
-        font-size: 8px;
-        margin: 5px;    
-    }
-
-    .madmanrun_website{
-        font-size: 8px;
-        margin: 5px;
-    }
-
-    .gamejolt:hover{
-        font-size: 8px;
-        margin: 5px;    }
-
-    .madmanrun_website:hover{
-        font-size: 8px;
-        margin: 5px;
-    } 
-
-}
-
-@media (min-width: 651px) {
     #prj2 {
-        position: absolute;
-        height: 100%;
-        width: 100%;
-        background-image: url(../images/checkers.png);
-        background-repeat: no-repeat; 
-        background-size: 330%;
-        background-position: 0%;
-        z-index: -1;
+        background-size: 360%;
+        background-position: 15%;
     }
 
 }
 
-@media (min-width: 1000px) {
+@media (min-width: 1280px) {
+
+    span {
+        font-size: 46px;
+    }
+
     #prj2 {
-        position: absolute;
-        height: 100%;
-        width: 100%;
-        background-image: url(../images/checkers.png);
-        background-repeat: no-repeat; 
-        background-size: 260%;
-        background-position: 0%;
-        z-index: -1;
+        background-size: 170%;
+    }
+
+    #prj3 {
+        background-size: 170%;
+    }
+
+    .gamejolt {
+        font-size: xx-large;
+    }
+
+    .madmanrun_website {
+        font-size: xx-large;
+    }
+
+    .gamejolt:hover {
+        font-size: xx-large;
+    }
+
+    .madmanrun_website:hover {
+        font-size: xx-large;
     }
 
 }
 
+@media (min-width: 1280px) and (min-width:950px) {
+
+    #prj2 {
+        background-size: 190%;
+    }
+
+    #prj3 {
+        background-size: 200%;
+    }
+
+}
 
 @media (min-width: 1440px) {
 
     span {
-        font-size: 65px;
+        font-size: 48px;
     }
 
     #prj2 {
-        position: absolute;
-        height: 100%;
-        width: 100%;
-        background-image: url(../images/checkers.png);
-        background-repeat: no-repeat; 
         background-size: 200%;
         background-position: 0%;
-        z-index: -1;
+    }
+
+    #prj3 {
+        background-size: 175%;
     }
 
 }
 
-@media (min-width: 768px) {
+@media (min-width: 1680px) and (min-height: 1050px) {
 
     #prj2 {
-        position: absolute;
-        height: 100%;
-        width: 100%;
-        background-image: url(../images/checkers.png);
-        background-repeat: no-repeat; 
-        background-size: 340%;
-        background-position: 25%;
-        z-index: -1;
-    }
-
-}
-
-@media (min-width: 1024px) {
-
-    #prj2 {
-        position: absolute;
-        height: 100%;
-        width: 100%;
-        background-image: url(../images/checkers.png);
-        background-repeat: no-repeat; 
-        background-size: 350%;
+        background-size: 140%;
         background-position: 15%;
-        z-index: -1;
     }
 
 }
+
+

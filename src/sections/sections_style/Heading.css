@@ -35,8 +35,7 @@
 
 img {
     position: absolute;
-    left: -90%;
-    height: 100%;
+    height: 140%;
     width: auto;
     z-index: -1;
 }
@@ -110,6 +109,26 @@ p:hover {
 
 /* media querie's */
 
+@media (min-width:240px) and (max-width:241px) {
+
+    h1 {
+        font-size: 12px;
+    }
+
+    ul {
+        font-size: 12px;
+    }
+
+    a:hover {
+        font-size: 16px;
+    }
+
+    p {
+        font-size: 32px;
+    }
+    
+}
+
 @media (min-width: 480px) {
 
     h1 {
@@ -133,11 +152,7 @@ p:hover {
     }
 
     img {
-        position: absolute;
-        left: 0%;
-        height: auto;
-        width: 200%;
-        z-index: -1;
+        height: 100%;
     }
 
 }
@@ -169,11 +184,21 @@ p:hover {
     }
 
     img {
-        position: absolute;
-        left: 0%;
         height: 100%;
-        width: auto;
-        z-index: -1;
+    }
+
+}
+
+@media (min-width:600px) and (max-width:768px) {
+    img {
+        height: 160%;
+    }
+}
+
+@media (min-width:769px) {
+
+    img {
+        height: 150%;
     }
 
 }
