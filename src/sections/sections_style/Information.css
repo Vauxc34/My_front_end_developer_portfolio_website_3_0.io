@@ -536,22 +536,29 @@ h4 {
 
     #skill4 {
         height: 35%;
+        top: 39.2%;
     }
 
     #skill5 {
         height: 35%;
+        top: 39.2%;
     }
 
     #skill6 {
         height: 35%;
+        top: 39.2%;
+    }
+
+    #actual_skills {
+        height: 90%;
     }
 
     h4 {
-        font-size: 30px;
+        font-size: 57px;
     }
 
     .desc {
-        font-size: 24px;
+        font-size:21px;
     }
 
     #knowledge {
@@ -595,6 +602,11 @@ h4 {
         font-size: 71px;
     }
 
+    #description {
+        top: 18%;
+        height: 60%;
+    }
+
 }
 
 @media (min-width:1280px) {
@@ -618,12 +630,12 @@ h4 {
 
     h5 {
         top: 0px;
-        font-size: 115px;
+        font-size: 12vw;
     }
     
     .desc {
         top: 0%;
-        font-size: 50px;
+        font-size: 6vh;
     }
 
     #about_me_ {
