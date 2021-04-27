@@ -50,7 +50,7 @@
     height: 50%;
     width: 100%;
     background-image: url(../images/desk.jpg);
-    background-size: 75%;
+    background-size: 40%;
 }
 
 h5 {
@@ -582,7 +582,7 @@ h4 {
 
     #skill4{
         position: relative;
-        height: 40%;
+        height: 37%;
         width: 33.5%;
         top: 37.2%;
         align-self: flex-start;
@@ -658,17 +658,14 @@ h4 {
 
     #skill4 {
         height: 35%;
-        top: 39.2%;
     }
 
     #skill5 {
         height: 35%;
-        top: 39.2%;
     }
 
     #skill6 {
         height: 35%;
-        top: 39.2%;
     }
 
     #actual_skills {
@@ -692,6 +689,10 @@ h4 {
         bottom: -.55%;
     }
 
+    #js6 {
+        height: 12vw;
+    }
+
 }
 
 @media (min-width:768px) {
@@ -704,27 +705,31 @@ h4 {
         top: 10%;
     }
 
+    #skill4 {
+        height: 40%;
+    }
+
 }
 
 @media (min-width: 800px) {
 
     #skill4 {
-        top: 37.5%;
-        height: 52%;
+        top: 37.6%;
+        height: 48%;
 
     }
 
     #skill5 {
 
-        top: 37.5%;
-        height: 52%;
+        top: 37.6%;
+        height: 48%;
 
     }
 
     #skill6 {
 
-        top: 37.5%;
-        height: 52%;
+        top: 37.6%;
+        height: 48%;
 
     }
 
@@ -753,10 +758,6 @@ h4 {
     h5 {
         top: 0px;
         font-size: 115px;
-    }
-    
-    .desc {
-        font-size: 86px;
     }
 
     #about_me_ {
@@ -874,12 +875,7 @@ h4 {
     .desc {
         
         top: 1%;
-        font-size: 64px;
-    }
-
-    h5 {
-        top:0px;
-        font-size: 125px;
+        font-size: 3.7vw;
     }
 }
 
@@ -894,6 +890,20 @@ h4 {
 }
 
 /* new media Querie's */
+
+@media (max-width:768px) {
+
+    #skill4 {
+        top: 37.5%;
+    }
+    #skill5 {
+        top: 37.5%;
+    }
+    #skill6 {
+        top: 37.5%;
+    }
+
+}
 
 @media (min-height:800px) {
     h5 {font-size: 10vw;}
