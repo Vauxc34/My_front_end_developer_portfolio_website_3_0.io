@@ -283,11 +283,10 @@ span {
     #project4 {
         align-self: flex-end;
         position: absolute;
-        left: 65%;
+        left: 66.7%;
         bottom: 0px;
         height:50%;
-        width:35%;
-        background-color: rgb(217, 255, 0);
+        width:33.35%;
         overflow: hidden;
     }
     
@@ -298,7 +297,6 @@ span {
         bottom: 0px;
         height:50%;
         width:33.35%;
-        background-color: rgb(255, 0, 140);
         overflow: hidden;
     }
     
