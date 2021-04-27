@@ -451,7 +451,7 @@ span {
     }
 
     #prj2 {
-        background-size: 200%;
+        background-size: 220%;
         background-position: 0%;
     }
 
@@ -464,7 +464,7 @@ span {
 @media (min-width: 1680px) and (min-height: 1050px) {
 
     #prj2 {
-        background-size: 140%;
+        background-size: 160%;
         background-position: 15%;
     }
 
