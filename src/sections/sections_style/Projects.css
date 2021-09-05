@@ -146,7 +146,7 @@ span {
     position:relative;
     height:50%;
     width:100%;
-    background-image: linear-gradient(#0000009c, #ffa825 115%);
+    background-image: linear-gradient(#00000085, #ff9900 185%);
     overflow: hidden;
 } 
 
@@ -166,8 +166,8 @@ span {
 #prj6 {
     position: absolute;
     left: 0px;
-    top: 0%;
-    height: 380%;
+    bottom: -215%;
+    height: 510%;
     width: auto; 
     z-index: -3;
 }
@@ -248,6 +248,19 @@ span {
     
 }
 
+@media (min-width:600px) {
+
+    #prj6 {
+        position: absolute;
+        left: 0%;
+        top: -10%;
+        height: 525%;
+        width: auto; 
+        z-index: -3;
+    }
+
+}
+
 @media (min-width: 650px) {
 
     span {
@@ -310,15 +323,6 @@ span {
         overflow: hidden;
     } 
 
-    #prj6 {
-        position: absolute;
-        left: 0%;
-        top: 0px;
-        height: 160%;
-        width: auto; 
-        z-index: -3;
-    }
-
 }
 
 @media (min-width: 651px) {
@@ -340,6 +344,12 @@ span {
         background-size: 360%;
     }
 
+    #prj6 {
+
+        height: 110%;
+
+    }
+
 }
 
 @media (min-width: 800px) {
@@ -350,6 +360,12 @@ span {
 
     #prj3 {
         background-size: 450%;
+    }
+
+    #prj6 {
+
+        height: 165%;
+        width: auto;
     }
 
 }
@@ -469,3 +485,14 @@ span {
 }
 
 
+@media (max-width:540px) {
+
+
+#prj6{
+
+top: -205%;
+height: 600%;
+
+}
+
+}
