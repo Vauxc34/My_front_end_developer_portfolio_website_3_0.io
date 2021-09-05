@@ -32,9 +32,9 @@ const Projects = () => (
     <a className="madmanrun_website" href="#">[click here to see more]</a>
 </div>
 <div id="project6">
-    <span id="info">madmanrun.pl</span>
+    <span id="info">apmira.site</span>
     <img id="prj6" src={project6} alt="prj6"></img>
-    <a className="madmanrun_website" href="http://admanrun.pl/">[click here to see website]</a>
+    <a className="madmanrun_website" href="http://apmira.site/">[click here to see website]</a>
 </div>
 
 </div>
