@@ -29,7 +29,7 @@ const Projects = () => (
 </div>
 <div id="project5">
     <span id="info">ichtys-dewocjonalnia.pl</span>
-    <a className="madmanrun_website" href="https://ichtys-dewocjonalia.pl/">[click here to see more]</a>
+    <a className="madmanrun_website" href="https://ichtys-dewocjonalia.pl/">[click here to see website]</a>
 </div>
 <div id="project6">
     <span id="info">apmira.site</span>
