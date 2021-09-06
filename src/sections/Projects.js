@@ -28,8 +28,8 @@ const Projects = () => (
     <a className="madmanrun_website" href="#">[click here to see more]</a>
 </div>
 <div id="project5">
-    <span id="info">[coming soon]</span>
-    <a className="madmanrun_website" href="#">[click here to see more]</a>
+    <span id="info">ichtys-dewocjonalnia.pl</span>
+    <a className="madmanrun_website" href="https://ichtys-dewocjonalia.pl/">[click here to see more]</a>
 </div>
 <div id="project6">
     <span id="info">apmira.site</span>
