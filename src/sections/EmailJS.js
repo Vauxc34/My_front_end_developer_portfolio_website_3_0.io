@@ -19,11 +19,11 @@ export default function ContactUs() {
   return (
     <form className="contact-form" onSubmit={sendEmail}>
       <input type="hidden" name="contact_number" />
-      <label>Name</label>
+      <label>Imię i nazwisko</label>
       <input type="text" name="user_name" />
-      <label>Email</label>
+      <label>Adres e-mail</label>
       <input type="email" name="user_email" />
-      <label>Message</label>
+      <label>Wiadomość</label>
       <textarea name="message" />
       <input type="submit" value="Send" />
     </form>
