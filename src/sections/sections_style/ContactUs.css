@@ -1,0 +1,25 @@
+form {
+
+flex-direction: column;
+height: 30%;
+width: 75%;
+background: white;
+
+}
+
+input {
+
+margin: 15px;
+
+}
+
+textarea {
+
+margin: 15px;
+
+}
+
+label {
+
+    margin-left: 15px;
+}

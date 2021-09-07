@@ -1,6 +1,6 @@
 import React from 'react'
 import './sections_style/Footer.css'
-import contact_img from './images/contact.png'
+import EmailJS from './EmailJS'
 import contact_img1 from './images/contact.jpg'
 
 const Footer = () => (
@@ -9,12 +9,7 @@ const Footer = () => (
 
     <img id="contact_img" src={contact_img1} alt="contact_img"></img>
 
-    <form action="">
-        <h2>any question's?</h2>
-        <input type="textarea" id="textarea" placeholder="type something if you have some question's :)"></input>
-        <input type="textarea" id="email__" placeholder="type your e-mail"></input>
-        <input type="button" id="send_btn" value="send!"></input>
-    </form>
+    <EmailJS />
 
     <div id="contact_email">
         <span id="email">wiktor wyrostek &copy;	2021 </span>
