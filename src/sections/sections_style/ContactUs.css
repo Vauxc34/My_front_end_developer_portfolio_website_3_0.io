@@ -19,6 +19,12 @@ border: none;
 
 }
 
+input:last-child {
+
+cursor: pointer;
+
+}
+
 textarea {
 
 margin: 15px;
