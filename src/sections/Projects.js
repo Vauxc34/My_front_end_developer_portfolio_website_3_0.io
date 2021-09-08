@@ -29,7 +29,7 @@ const Projects = () => (
     <a className="madmanrun_website" href="#">[click here to see more]</a>
 </div>
 <div id="project5">
-    <span id="info">ichtys-dewocjonalnia.pl</span>
+    <span id="info">ichtys-dewocjonalia.pl</span>
     <img id="prj5" src={project5} alt="prj5"></img>
     <a className="madmanrun_website" href="https://ichtys-dewocjonalia.pl/">[click here to see website]</a>
 </div>
