@@ -414,8 +414,8 @@ span {
     #prj5 {
         position: absolute;
         left: 0px;
-        bottom: 0%;
-        height: 100%;
+        top: -2%;
+        height: 110%;
         width: auto; 
         z-index: -3;
     }
