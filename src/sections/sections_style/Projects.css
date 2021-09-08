@@ -498,6 +498,15 @@ span {
         background-position: 15%;
     }
 
+    #prj5 {
+        position: absolute;
+        left: 0%;
+        top: -5%;
+        height: 160%;
+        width: auto; 
+        z-index: -3;
+    }
+
 }
 
 @media (min-width: 1280px) {
