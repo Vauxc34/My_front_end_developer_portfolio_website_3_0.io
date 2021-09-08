@@ -125,7 +125,7 @@ span {
     bottom: 0px;
     height:50%;
     width:100%;
-    background-image: linear-gradient(#0000009c, #252525da 115%);
+    background: black;
 }
 
 #project5 {
@@ -161,6 +161,15 @@ span {
 
 .madmanrun_website:hover {
     font-size: 16px;
+}
+
+#prj5 {
+    position: absolute;
+    left: 0px;
+    bottom: -290%;
+    height: 455%;
+    width: auto; 
+    z-index: -3;
 }
 
 #prj6 {
@@ -344,6 +353,15 @@ span {
         background-size: 360%;
     }
 
+    #prj5 {
+        position: absolute;
+        left: 0px;
+        bottom: 0%;
+        height: 100%;
+        width: auto; 
+        z-index: -3;
+    }
+
     #prj6 {
 
         height: 110%;
@@ -362,6 +380,7 @@ span {
         background-size: 450%;
     }
 
+
     #prj6 {
 
         height: 165%;
@@ -374,6 +393,15 @@ span {
 
     #prj2 {
         background-position: 100%;
+    }
+
+    #prj5 {
+        position: absolute;
+        left: 0px;
+        bottom: -60%;
+        height: 165%;
+        width: auto; 
+        z-index: -3;
     }
 
 }
