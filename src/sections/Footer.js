@@ -9,6 +9,8 @@ const Footer = () => (
 
     <img id="contact_img" src={contact_img1} alt="contact_img"></img>
 
+    <h2 id="footer_title">Any question's?</h2>
+
     <EmailJS />
 
     <div id="contact_email">

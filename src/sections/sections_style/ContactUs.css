@@ -68,19 +68,24 @@ margin-top: -12px;
 
     form {
 
-        top: 10%;
+        top: -2%;
 
+    }
+
+    textarea {
+        margin: 13px;
+        height: 30%;
     }
 
     input {
 
-    height: 6%;
+    height: 10%;
 
     }   
 
     label {
 
-        font-size: 5vw;
+        font-size: 2vw;
 
     }
 
@@ -89,22 +94,22 @@ margin-top: -12px;
     label:nth-child(2) {
 
         margin-top: -25px;
-        margin-bottom:10px;
+        margin-bottom:5px;
         
         }
 
         label:nth-child(4) {
 
             margin-top: 25px;
-            margin-bottom:10px;
+            margin-bottom:5px;
             
             }
 
     label:nth-child(6) {
 
-        margin-top: 45px;
-        margin-bottom: 5px;
-        font-size: 7vw;
+        margin-top: 20px;
+        margin-bottom: -10px;
+        font-size: 3.5vw;
 
         
         }
@@ -115,9 +120,9 @@ margin-top: -12px;
         width: 35%;
         font-family:  'Fjalla One', sans-serif;
         border: none;
-        font-size: 4vw;
-        height: 10%;
-        margin-top: 10px;
+        font-size: 2vw;
+        height: 7%;
+        margin-top: 0px;
         
         }
 
@@ -127,19 +132,27 @@ margin-top: -12px;
 
     form {
 
-        top: 10%;
+        top: -10%;
+        left: 25%;
 
+    }
+
+    textarea {
+        margin: 13px;
+        height: 30%;
+        width: 40%;
     }
 
     input {
 
-    height: 6%;
+    height: 5%;
+    width: 45%;
 
     }   
 
     label {
 
-        font-size: 5vw;
+        font-size: 1.5vw;
 
     }
 
@@ -148,22 +161,22 @@ margin-top: -12px;
     label:nth-child(2) {
 
         margin-top: -25px;
-        margin-bottom:10px;
+        margin-bottom:5px;
         
         }
 
         label:nth-child(4) {
 
             margin-top: 25px;
-            margin-bottom:10px;
+            margin-bottom:5px;
             
             }
 
     label:nth-child(6) {
 
-        margin-top: 45px;
-        margin-bottom: 5px;
-        font-size: 7vw;
+        margin-top: 20px;
+        margin-bottom: -10px;
+        font-size: 2.5vw;
 
         
         }
@@ -174,9 +187,9 @@ margin-top: -12px;
         width: 35%;
         font-family:  'Fjalla One', sans-serif;
         border: none;
-        font-size: 4vw;
-        height: 10%;
-        margin-top: 10px;
+        font-size: 1.65vw;
+        height: 5%;
+        margin-top: 0px;
         
         }
 
