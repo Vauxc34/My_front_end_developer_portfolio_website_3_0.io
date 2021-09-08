@@ -203,6 +203,15 @@ span {
     #prj3 {
         background-size: 100%;
     }
+
+    #prj5 {
+        position: absolute;
+        left: 0%;
+        top: -85%;
+        height: 535%;
+        width: auto; 
+        z-index: -3;
+    }
 }
 
 @media (min-height:320px) and (min-height:500px) and (orientation: landscape) {
@@ -254,19 +263,68 @@ span {
     #prj3 {
         background-size: 100%;
     }
+
+    #prj5 {
+        position: absolute;
+        left: 0%;
+        top: -90%;
+        height: 535%;
+        width: auto; 
+        z-index: -3;
+    }
     
 }
 
 @media (min-width:600px) {
 
-    #prj6 {
+    #prj5 {
         position: absolute;
         left: 0%;
-        top: -10%;
-        height: 525%;
+        top: -250%;
+        height: 1450%;
         width: auto; 
         z-index: -3;
     }
+
+    #prj6 {
+        position: absolute;
+        left: 0%;
+        top: -30%;
+        height: 1425%;
+        width: auto; 
+        z-index: -3;
+    }
+
+    
+
+    .gamejolt {
+        position: absolute;
+        align-self: flex-end;
+        margin: 10px;
+        font-size: 1.5vw;    
+        font-family: 'Fjalla One', sans-serif;
+        z-index: 1;
+    }
+
+    .madmanrun_website {
+
+        margin: 10px;
+        font-size: 1.5vw;
+
+    }
+    
+    #info {
+        margin-bottom: 13px;
+        font-size: 3vw;
+
+    }
+
+    #info_about_desktop {
+        margin-bottom: 13px;
+        font-size: 3vw;
+
+    }
+
 
 }
 
