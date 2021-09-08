@@ -1,29 +1,183 @@
 form {
-
 flex-direction: column;
-height: 65%;
-width: 75%;
-background: #0028da85;
-top: 0%;
-color: white;
+height: 82%;
+width: 100%;
+top: -3%;
+color: #ffffff;
 z-index: 4;
-
 }
 
 input {
 
-margin: 5px;
+margin-bottom: -15px;
+width: 95%;
+height: 8.5%;
 background: white;
+align-self: center;
+border-radius: 25px;
+border: none;
 
 }
 
 textarea {
 
-margin: 5px;
+margin: 15px;
+width: 65%;
+height: 40%;
+align-self: center;
 
 }
 
 label {
+    align-self: center;
+    margin-top: 15px;
+    font-size: 2.75vw;
+    font-family:  'Fjalla One', sans-serif;
+    background: #070755;
+    padding: 4px;
 
-    margin-left: 15px;
+}
+
+label:nth-child(2) {
+
+margin-top: -25px;
+margin-bottom:2px;
+
+}
+
+label:nth-child(6) {
+
+margin-top: 20px;
+margin-bottom: -12px;
+font-size: 5vw;
+
+}
+
+input:nth-child(8) {
+
+width: 35%;
+font-family:  'Fjalla One', sans-serif;
+border: none;
+font-size: 4vw;
+height: 10%;
+margin-top: -12px;
+
+}
+
+@media (min-width:600px) {
+
+    form {
+
+        top: 10%;
+
+    }
+
+    input {
+
+    height: 6%;
+
+    }   
+
+    label {
+
+        font-size: 5vw;
+
+    }
+
+    
+
+    label:nth-child(2) {
+
+        margin-top: -25px;
+        margin-bottom:10px;
+        
+        }
+
+        label:nth-child(4) {
+
+            margin-top: 25px;
+            margin-bottom:10px;
+            
+            }
+
+    label:nth-child(6) {
+
+        margin-top: 45px;
+        margin-bottom: 5px;
+        font-size: 7vw;
+
+        
+        }
+
+
+    input:nth-child(8) {
+
+        width: 35%;
+        font-family:  'Fjalla One', sans-serif;
+        border: none;
+        font-size: 4vw;
+        height: 10%;
+        margin-top: 10px;
+        
+        }
+
+}
+
+@media (min-width:768px) {
+
+    form {
+
+        top: 10%;
+
+    }
+
+    input {
+
+    height: 6%;
+
+    }   
+
+    label {
+
+        font-size: 5vw;
+
+    }
+
+    
+
+    label:nth-child(2) {
+
+        margin-top: -25px;
+        margin-bottom:10px;
+        
+        }
+
+        label:nth-child(4) {
+
+            margin-top: 25px;
+            margin-bottom:10px;
+            
+            }
+
+    label:nth-child(6) {
+
+        margin-top: 45px;
+        margin-bottom: 5px;
+        font-size: 7vw;
+
+        
+        }
+
+
+    input:nth-child(8) {
+
+        width: 35%;
+        font-family:  'Fjalla One', sans-serif;
+        border: none;
+        font-size: 4vw;
+        height: 10%;
+        margin-top: 10px;
+        
+        }
+
 }
