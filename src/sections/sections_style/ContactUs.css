@@ -38,6 +38,11 @@ label {
 
 }
 
+::placeholder {
+    font-size: 1vh;
+    padding: 15px;
+}
+
 label:nth-child(2) {
 
 margin-top: -25px;
