@@ -140,6 +140,19 @@ h5 {
     overflow: hidden;
 }
 
+#skill_wordpress {
+position: absolute;
+display: flex;
+justify-content: center;
+top: 31.5%;
+height: 35%;
+width: 90%;
+background-color: #4274ffc9;
+overflow: hidden;
+z-index: 4;
+
+}
+
 #skill4 {
     display: flex;
     justify-content: center;
@@ -196,6 +209,16 @@ h4 {
     z-index: 1;
 }
 
+#wordpress_log {
+
+    position: relative;
+    align-self: center;
+    bottom: 0px;
+    height: 1000px;
+    z-index: 1;
+
+}
+
 #js6 {
     position: relative;
     align-self: center;
@@ -245,6 +268,15 @@ h4 {
     position: absolute;
     text-align: center;
 }
+
+.wordpress_name {
+
+    position: absolute;
+    text-align: center;
+    color: #001530ce;
+
+}
+
 .sassscss_name {
     position: absolute;
     text-align: center;
@@ -851,6 +883,13 @@ h4 {
     .js6_name {
         font-size: 85px;
     }
+
+    .wordpress_name {
+
+        font-size: 265px;
+
+    }
+
     .sassscss_name {
         font-size: 85px;
     }

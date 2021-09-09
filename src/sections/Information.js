@@ -9,6 +9,7 @@ import knowledge from '../sections/images/knowledge.png'
 import html5 from '../sections/images/HTML5.png'
 import css3 from '../sections/images/CSS3.png'
 import js6 from '../sections/images/JS6.png'
+import wordpress_logo from '../sections/images/Wordpress_Blue_logo.png'
 import sassscss from '../sections/images/SASS.png'
 import react from '../sections/images/react.png'
 import git from '../sections/images/git.png'
@@ -50,6 +51,14 @@ const Information = () => (
         <img id="js6" src={js6}></img>
         <span className="js6_name">javascript</span>
         </div>
+
+        <div id="skill_wordpress">
+         
+        <img id="wordpress_log" src={wordpress_logo}></img>
+        <span className="wordpress_name">wordpress</span>
+        </div>
+
+
         <div id="skill4">
         
         <img id="sassscss" src={sassscss}></img>
