@@ -1,7 +1,7 @@
 import React from 'react'
 import './sections_style/Information.css'
 import knowledge from '../sections/images/knowledge.png'
-
+import styled from 'styled-components'
 
 
 /* skill's */

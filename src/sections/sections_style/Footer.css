@@ -97,7 +97,10 @@ input {
     bottom: 0px;
     height: 100%;
     width: auto;
+    filter: blur(3px);
 }
+
+
 
 #contact_email {
     display: flex;
@@ -118,9 +121,9 @@ input {
 
 #footer_title {
 
-font-size: 50px;
-top: 2%;
-right: 50%;
+font-size: 48px;
+top: 3%;
+right: 48%;
 
 }
 
@@ -268,8 +271,26 @@ right: 50%;
         font-size: xx-large;
     }
 
+    #footer_title {
+
+        font-size: 90px;
+        width: 100%;
+        top: 0%;
+        right: -3%;
+        
+        }
+
     #contact_email {
         height: 7%;
+    }
+    
+
+    #contact_img {
+        position: absolute;
+        left: -90%;
+        bottom: -200px;
+        height: 130%;
+        width: auto;
     }
 
 }
@@ -296,10 +317,22 @@ right: 50%;
 
 @media (min-width:1025px) {
 
+    #contact_img {
+        position: absolute;
+        left: 0px;
+        bottom: 0px;
+        height: 100%;
+        width: auto;
+    }
+
+
+
+
     #footer_title {
     
         font-size:90px;
-        right: 49%;
+        top: 2%;
+        right: -2%;
     }
     
     }
