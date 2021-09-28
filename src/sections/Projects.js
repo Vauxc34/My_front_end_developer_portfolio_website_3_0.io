@@ -30,12 +30,12 @@ const Projects = () => (
 </div>
 <div id="project5">
     <span id="info">ichtys-dewocjonalia.pl</span>
-    <img id="prj5" src={project5} alt="prj5"></img>
+    <div id="prj5"></div>
     <a className="madmanrun_website" href="https://ichtys-dewocjonalia.pl/">[click here to see website]</a>
 </div>
 <div id="project6">
     <span id="info">apmira.site</span>
-    <img id="prj6" src={project6} alt="prj6"></img>
+    <div id="prj6"></div>
     <a className="madmanrun_website" href="http://apmira.site/">[click here to see website]</a>
 </div>
 

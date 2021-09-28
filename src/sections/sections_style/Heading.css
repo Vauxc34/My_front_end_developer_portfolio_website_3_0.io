@@ -35,7 +35,7 @@
 
 img {
     position: absolute;
-    height: 140%;
+    height: 150%;
     width: auto;
     z-index: -1;
 }
@@ -218,7 +218,7 @@ p:hover {
 @media (min-width:769px) {
 
     img {
-        height: 150%;
+        height: 160%;
     }
 
 }
