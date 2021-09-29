@@ -55,9 +55,10 @@ position:relative;
   font-family:Arial;
   font-size:40px;
 
+
 @media (max-width:768px) {
 
-  font-size:20px;
+  font-size:3.75vh;
 
 
 }

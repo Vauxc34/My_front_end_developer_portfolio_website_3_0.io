@@ -356,6 +356,22 @@ h4 {
 
 /* media querie's */
 
+@media (min-width:360px) and (max-width:650px) {
+    
+    #widget__two_with_description {
+        top: 50px;
+        height:125px;
+    }
+}
+
+@media (max-width:650px) and (orientation:portrait) {
+    
+    #widget__two_with_description {
+        top: 0px;
+        height:475px;
+    }
+}
+
 @media (max-width:768px) {
     
     #widget__one {
