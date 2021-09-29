@@ -137,13 +137,6 @@
 
 /* */
 
-#working_man {
-    position: absolute;
-    align-self: flex-start;
-    top: 30px;
-    left: 20px;
-    height: 100px;
-}
 
 #actual_skills {
     display: flex;
@@ -363,3 +356,88 @@ h4 {
 
 /* media querie's */
 
+@media (max-width:768px) {
+    
+    #widget__one {
+        width: 300px;
+    }
+
+    #skill1 {
+        height: 100%;
+    }
+    
+    #skill2 {
+        height: 100%;
+    }
+    
+    #skill3 {
+        height: 100%;
+    }
+
+    #skill4 {
+        height: 100%;
+    }
+    
+    #skill5 {
+        height: 100%;
+    }
+    
+    #skill6 {
+        height: 100%;
+    }
+    
+
+    #html5 {
+        height: 50px;
+    }
+    
+    #css3 {
+        height: 50px;
+    }
+    
+    #wordpress_log {
+        top:-105%;
+        height: 300px;
+    }
+    
+    #js6 {
+        height: 50px;
+    }
+    
+    #sassscss {
+        height: 50px;
+    }
+    
+    #react {
+        height: 50px;
+    }
+    
+    #git {
+        height: 50px;
+    }
+    
+
+    .wordpress_name {
+        font-size: 8vh;
+    }
+
+    #skill_wordpress {
+        height: 100%;
+    }
+
+    #container___one {
+        height: 40%;
+        flex-direction: column;
+        }
+        
+        #container___two {
+            flex-direction: column;
+            height: 15%;
+        }
+        
+        #container__three {
+            height: 40%;
+            flex-direction: column;
+        }
+
+}

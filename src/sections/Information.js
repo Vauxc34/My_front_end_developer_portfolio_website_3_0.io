@@ -24,6 +24,13 @@ height:100px;
 width:100px;
 border-radius:50%;
 background:white;
+
+@media (max-width:768px) {
+
+  left:65%;
+
+}
+
 `
 
 const MainTitle = styled.h1`
@@ -32,6 +39,13 @@ const MainTitle = styled.h1`
   font-size:66px;
   margin-left:20px;
   z-index:2;
+
+  @media (max-width:768px) {
+
+    font-size:28px;
+  }
+
+
 `
 
 const Description = styled.p`
@@ -40,6 +54,14 @@ position:relative;
   color: white;
   font-family:Arial;
   font-size:40px;
+
+@media (max-width:768px) {
+
+  font-size:20px;
+
+
+}
+
 `
 
 const Information = () => (
