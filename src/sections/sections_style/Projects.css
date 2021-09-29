@@ -2,10 +2,9 @@
 
 #slider {
     display: flex;
-    position: absolute;
+    position: relative;
     justify-content: flex-start;
     flex-direction: column;
-    top: 100vh;
     height: 100vh;
     width: 100%;
 }
@@ -237,7 +236,7 @@ span {
 
     .gamejolt{
         font-size: 8px;
-        margin: 5px;    
+        margin: 5px;   
     }
 
     .madmanrun_website{

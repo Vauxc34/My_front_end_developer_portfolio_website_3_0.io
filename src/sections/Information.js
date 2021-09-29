@@ -16,7 +16,31 @@ import git from '../sections/images/git.png'
 
 /* */
 
-import about_Mee from '../sections/images/about_me.jpg'
+const Circle = styled.div`
+position:absolute;
+top:5%;
+left:79%;
+height:100px;
+width:100px;
+border-radius:50%;
+background:white;
+`
+
+const MainTitle = styled.h1`
+  color: white;
+  font-family:'Merriweather';
+  font-size:66px;
+  margin-left:20px;
+  z-index:2;
+`
+
+const Description = styled.p`
+position:relative;
+  background: transparent;
+  color: white;
+  font-family:Arial;
+  font-size:40px;
+`
 
 const Information = () => (
 
@@ -25,17 +49,25 @@ const Information = () => (
     <div id="skills1">
         
         <div id="about_me">
-        
-        <h5>about me</h5>
-        <img id="about_me_" src={about_Mee}></img>
-        <div id="description">
-        <p className="desc">Beginner front end programist and Student living in a small village in Poland. who started in 2014 writing some basic games in The Games Factory 2 Multimedia Fusion 2. Currently i have 18 year's old and i starting this journey with programming again. Creativity and beign helpful is my strong side. <br></br><br></br></p>
+
+        <div id="widget__one">
+        <MainTitle>Who am i?</MainTitle>
+        <Circle>
+          <div className="avatar"></div>
+        </Circle>
         </div>
+        
+        <div id="widget__two_with_description">
+        <Description>Beginner front end programist and Student living in a small village in Poland. who started in 2014 writing some basic games in The Games Factory 2 Multimedia Fusion 2. Currently i have 18 year's old and i starting this journey with programming again. Creativity and beign helpful is my strong side.</Description>
+        </div>
+        
         </div>
     </div>
     <div id="skills2">
         <img id="knowledge" src={knowledge} alt="knowledge"></img>
         <div id="actual_skills">
+        <div id="container___one">
+
         <div id="skill1">
         
         <img id="html5" src={html5}></img>
@@ -52,12 +84,20 @@ const Information = () => (
         <span className="js6_name">javascript</span>
         </div>
 
-        <div id="skill_wordpress">
-         
-        <img id="wordpress_log" src={wordpress_logo}></img>
-        <span className="wordpress_name">wordpress</span>
+
         </div>
 
+        <div id="container___two">
+
+        <div id="skill_wordpress">
+         
+         <img id="wordpress_log" src={wordpress_logo}></img>
+         <span className="wordpress_name">wordpress</span>
+         </div>
+
+        </div>
+        
+        <div id="container__three">
 
         <div id="skill4">
         
@@ -74,6 +114,9 @@ const Information = () => (
         <img id="git" src={git}></img>
         <span className="git_name">git</span>
         </div>
+
+        </div>
+       
         <h4>my actual skills</h4>
         </div>
     </div>
