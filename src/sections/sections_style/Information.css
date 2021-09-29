@@ -95,11 +95,12 @@
 #widget__two_with_description {
     display: flex;
     position: relative;
+    flex-direction: column;
     height:50vh;
     width: 90%;
     float: right;
     border-radius: 25px 0px 0px 25px;
-    background:linear-gradient(#065ee2, #000085) ;
+    background:radial-gradient(#ffffff, #ececec) ;
     animation-name: animacja___druga;
     animation-duration: 4s;
 }

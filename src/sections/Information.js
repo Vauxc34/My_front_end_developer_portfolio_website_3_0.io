@@ -33,6 +33,51 @@ background:white;
 
 `
 
+const TransitionBox = styled.div`
+position:absolute;
+display:flex;
+flex-direction:column;
+text-align:center;
+justify-content:center;
+font-family:Arial;
+font-size:28px;
+height:50vh;
+width:100%;
+right:0px;
+border-radius:25px 0px 0px 25px;
+background-color:#ebb734;
+z-index:999;
+animation-name:about___me___animation;
+animation-duration: 4s;
+transition:1s;
+&:hover{
+  color:
+  #ebb734;
+  height:15%;
+  border-radius:0px;
+  font-size:0px;
+}
+
+
+@keyframes about___me___animation {
+
+0% {
+  
+height:0px;
+  
+  }
+
+100% {
+
+  height:100%;
+
+}
+
+
+
+}
+`
+
 const MainTitle = styled.h1`
   color: white;
   font-family:'Merriweather';
@@ -51,9 +96,10 @@ const MainTitle = styled.h1`
 const Description = styled.p`
 position:relative;
   background: transparent;
-  color: white;
+  color: black;
   font-family:Arial;
   font-size:3vh;
+  padding:20px;
 
 
 @media (min-width:640px) {
@@ -76,11 +122,14 @@ const Information = () => (
         <MainTitle>Who am i?</MainTitle>
         <Circle>
           <div className="avatar"></div>
+       
         </Circle>
         </div>
         
         <div id="widget__two_with_description">
+        
         <Description>Beginner front end programist and Student living in a small village in Poland. who started in 2014 writing some basic games in The Games Factory 2 Multimedia Fusion 2. Currently i have 18 year's old and i starting this journey with programming again. Creativity and beign helpful is my strong side.</Description>
+        <TransitionBox>[Click or hold on the right side cursor, if you wanna know more]</TransitionBox>
         </div>
         
         </div>
