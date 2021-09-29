@@ -53,13 +53,12 @@ position:relative;
   background: transparent;
   color: white;
   font-family:Arial;
-  font-size:40px;
+  font-size:3.1vh;
 
 
-@media (max-width:768px) {
+@media (min-width:640px) {
 
-  font-size:3.75vh;
-
+  font-size:4vh;
 
 }
 
