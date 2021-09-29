@@ -53,7 +53,7 @@ position:relative;
   background: transparent;
   color: white;
   font-family:Arial;
-  font-size:3.1vh;
+  font-size:3vh;
 
 
 @media (min-width:640px) {

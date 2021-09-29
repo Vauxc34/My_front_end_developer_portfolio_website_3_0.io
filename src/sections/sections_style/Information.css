@@ -95,7 +95,7 @@
 #widget__two_with_description {
     display: flex;
     position: relative;
-    height:350px;
+    height:50vh;
     width: 90%;
     float: right;
     border-radius: 25px 0px 0px 25px;
@@ -356,7 +356,7 @@ h4 {
 
 /* media querie's */
 
-@media (min-width:360px) and (max-width:650px) {
+@media (min-width:280px) and (max-width:650px) {
     
     #widget__two_with_description {
         top: 50px;
@@ -368,11 +368,16 @@ h4 {
     
     #widget__two_with_description {
         top: 60px;
-        height:475px;
+        height:50vh;
     }
 }
 
 @media (max-width:768px) {
+
+    #widget__two_with_description {
+        top: 60px;
+        height:45vh;
+    }
     
     #widget__one {
         width: 300px;
