@@ -147,6 +147,15 @@ position:relative;
 
 `
 
+const PartnerBox = styled.div`
+position:absolute;
+bottom: 10px;
+height:55px;
+width:100%;
+background:red;
+
+`
+
 const Information = () => (
 
 <div id="information">
@@ -171,6 +180,8 @@ const Information = () => (
         </div>
         
         </div>
+
+        <PartnerBox></PartnerBox>
     </div>
     <div id="skills2">
         <img id="knowledge" src={knowledge} alt="knowledge"></img>
