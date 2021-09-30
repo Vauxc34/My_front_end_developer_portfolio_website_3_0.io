@@ -54,7 +54,7 @@ transition:1s;
   color:
   #ebb734;
   height:15%;
-  border-radius:0px;
+  border-radius:25px 0px 0px 0px;
   font-size:0px;
 }
 
