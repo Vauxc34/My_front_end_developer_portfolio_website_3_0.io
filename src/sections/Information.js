@@ -50,7 +50,7 @@ background: -moz-linear-gradient(top, #E6F609 0%, #EEE10B 50%, #FFB52D 100%);
 background: -webkit-linear-gradient(top, #E6F609 0%, #EEE10B 50%, #FFB52D 100%);
 background: linear-gradient(to bottom, #E6F609 0%, #EEE10B 50%, #FFB52D 100%);
 -webkit-box-shadow: 4px 11px 10px 0px rgba(0,0,0,0.74); 
-box-shadow: 4px 11px 10px 0px rgba(0,0,0,0.74);
+box-shadow: 4px 4px 10px 0px rgba(0,0,0,0.74);
 z-index:999;
 color:white;
 animation-name:about___me___animation;
@@ -99,27 +99,51 @@ const MainTitle = styled.h1`
 
 `
 
-const Description = styled.p`
+const DescriptionBox = styled.div`
+position:relative;
+display:flex;
+justify-content:center;
+height:100%;
+width:90%;
+
+
+
+`
+
+const Description = styled.span`
 position:relative;
   background: transparent;
   color: black;
   font-family:Arial;
   font-size:2.5vh;
-  margin-top:75px;
+  text-transform:none;
+  text-align:justify;
 
   @media (max-width:280px) {
-    margin-top:25px;
-    padding:25px;
-    font-size:2vh;
-  
+
+    font-size:15px;
   }
 
-@media (min-width:640px) {
-  margin-top:5%;
-  padding:15px;
-  font-size:4vh;
+  @media (min-width:600px) {
 
-}
+    font-size:15px;
+  }
+
+  @media (min-width:768px) {
+
+    font-size:32px;
+  }
+
+  @media (min-width:1024px) {
+
+    font-size:28px;
+  }
+
+  @media (min-height:1366px) {
+
+    font-size:45px;
+  }
+
 
 `
 
@@ -140,8 +164,9 @@ const Information = () => (
         </div>
         
         <div id="widget__two_with_description">
-        
+        <DescriptionBox>
         <Description>Beginner front end programist and Student living in a small village in Poland. who started in 2014 writing some basic games in The Games Factory 2 Multimedia Fusion 2. Currently i have 18 year's old and i starting this journey with programming again. Creativity and beign helpful is my strong side.</Description>
+        </DescriptionBox>
         <TransitionBox>short note</TransitionBox>
         </div>
         
