@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/My_front_end_developer_portfolio_website_3_0.io/static/css/main.d208b537.chunk.css",
-    "main.js": "/My_front_end_developer_portfolio_website_3_0.io/static/js/main.6f02ba5b.chunk.js",
-    "main.js.map": "/My_front_end_developer_portfolio_website_3_0.io/static/js/main.6f02ba5b.chunk.js.map",
+    "main.css": "/My_front_end_developer_portfolio_website_3_0.io/static/css/main.829e5d5f.chunk.css",
+    "main.js": "/My_front_end_developer_portfolio_website_3_0.io/static/js/main.c6e1f2f4.chunk.js",
+    "main.js.map": "/My_front_end_developer_portfolio_website_3_0.io/static/js/main.c6e1f2f4.chunk.js.map",
     "runtime-main.js": "/My_front_end_developer_portfolio_website_3_0.io/static/js/runtime-main.aee28025.js",
     "runtime-main.js.map": "/My_front_end_developer_portfolio_website_3_0.io/static/js/runtime-main.aee28025.js.map",
-    "static/js/2.dc78739d.chunk.js": "/My_front_end_developer_portfolio_website_3_0.io/static/js/2.dc78739d.chunk.js",
-    "static/js/2.dc78739d.chunk.js.map": "/My_front_end_developer_portfolio_website_3_0.io/static/js/2.dc78739d.chunk.js.map",
+    "static/js/2.85a1bfba.chunk.js": "/My_front_end_developer_portfolio_website_3_0.io/static/js/2.85a1bfba.chunk.js",
+    "static/js/2.85a1bfba.chunk.js.map": "/My_front_end_developer_portfolio_website_3_0.io/static/js/2.85a1bfba.chunk.js.map",
     "index.html": "/My_front_end_developer_portfolio_website_3_0.io/index.html",
-    "static/css/main.d208b537.chunk.css.map": "/My_front_end_developer_portfolio_website_3_0.io/static/css/main.d208b537.chunk.css.map",
-    "static/js/2.dc78739d.chunk.js.LICENSE.txt": "/My_front_end_developer_portfolio_website_3_0.io/static/js/2.dc78739d.chunk.js.LICENSE.txt",
+    "static/css/main.829e5d5f.chunk.css.map": "/My_front_end_developer_portfolio_website_3_0.io/static/css/main.829e5d5f.chunk.css.map",
+    "static/js/2.85a1bfba.chunk.js.LICENSE.txt": "/My_front_end_developer_portfolio_website_3_0.io/static/js/2.85a1bfba.chunk.js.LICENSE.txt",
     "static/media/CSS3.19c8605d.png": "/My_front_end_developer_portfolio_website_3_0.io/static/media/CSS3.19c8605d.png",
     "static/media/HTML5.d4bc84dd.png": "/My_front_end_developer_portfolio_website_3_0.io/static/media/HTML5.d4bc84dd.png",
     "static/media/JS6.42763b29.png": "/My_front_end_developer_portfolio_website_3_0.io/static/media/JS6.42763b29.png",
@@ -24,8 +24,8 @@
   },
   "entrypoints": [
     "static/js/runtime-main.aee28025.js",
-    "static/js/2.dc78739d.chunk.js",
-    "static/css/main.d208b537.chunk.css",
-    "static/js/main.6f02ba5b.chunk.js"
+    "static/js/2.85a1bfba.chunk.js",
+    "static/css/main.829e5d5f.chunk.css",
+    "static/js/main.c6e1f2f4.chunk.js"
   ]
 }
