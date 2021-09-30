@@ -39,14 +39,20 @@ display:flex;
 flex-direction:column;
 text-align:center;
 justify-content:center;
-font-family:Arial;
-font-size:28px;
+font-family:'Lobster';
+font-size:70px;
 height:50vh;
 width:100%;
 right:0px;
 border-radius:25px 0px 0px 25px;
-background-color:#ebb734;
+background: #E6F609;
+background: -moz-linear-gradient(top, #E6F609 0%, #EEE10B 50%, #FFB52D 100%);
+background: -webkit-linear-gradient(top, #E6F609 0%, #EEE10B 50%, #FFB52D 100%);
+background: linear-gradient(to bottom, #E6F609 0%, #EEE10B 50%, #FFB52D 100%);
+-webkit-box-shadow: 4px 11px 10px 0px rgba(0,0,0,0.74); 
+box-shadow: 4px 11px 10px 0px rgba(0,0,0,0.74);
 z-index:999;
+color:white;
 animation-name:about___me___animation;
 animation-duration: 4s;
 transition:1s;
@@ -98,12 +104,19 @@ position:relative;
   background: transparent;
   color: black;
   font-family:Arial;
-  font-size:3vh;
-  padding:20px;
+  font-size:2.5vh;
+  margin-top:75px;
 
+  @media (max-width:280px) {
+    margin-top:25px;
+    padding:25px;
+    font-size:2vh;
+  
+  }
 
 @media (min-width:640px) {
-
+  margin-top:5%;
+  padding:15px;
   font-size:4vh;
 
 }
@@ -129,7 +142,7 @@ const Information = () => (
         <div id="widget__two_with_description">
         
         <Description>Beginner front end programist and Student living in a small village in Poland. who started in 2014 writing some basic games in The Games Factory 2 Multimedia Fusion 2. Currently i have 18 year's old and i starting this journey with programming again. Creativity and beign helpful is my strong side.</Description>
-        <TransitionBox>[Click or hold on the right side cursor, if you wanna know more]</TransitionBox>
+        <TransitionBox>short note</TransitionBox>
         </div>
         
         </div>
