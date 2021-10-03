@@ -54,10 +54,18 @@ const DescriptionBox = styled.div`
 position:relative;
 display:flex;
 justify-content:center;
+flex-direction:column;
+font-family:Arial;
 height:100%;
-width:90%;
+font-size:2.75vh;
+width:clamp(80%, 15vh, 90%);
 
+@media (min-width:599px) and (orientation:landscape) {
 
+  font-size:4.85vh;
+  width:clamp(90%, 15vh, 90%);
+
+}
 
 `
 
@@ -268,7 +276,7 @@ const Information = () => (
         
         <div id="widget__two_with_description">
         <DescriptionBox>
-        <Description>Beginner front end programist and Student living in a small village in Poland. who started in 2014 writing some basic games in The Games Factory 2 Multimedia Fusion 2. Currently i have 18 year's old and i starting this journey with programming again. Creativity and beign helpful is my strong side.</Description>
+        Beginner front end programist and Student living in a small village in Poland. who started in 2014 writing some basic games in The Games Factory 2 Multimedia Fusion 2. Currently i have 18 year's old and i starting this journey with programming again. Creativity and beign helpful is my strong side.
         </DescriptionBox>
         </div>
         
