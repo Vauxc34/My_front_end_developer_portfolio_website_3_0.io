@@ -33,56 +33,7 @@ background:white;
 
 `
 
-const TransitionBox = styled.div`
-position:absolute;
-display:flex;
-flex-direction:column;
-text-align:center;
-justify-content:center;
-font-family:'Lobster';
-font-size:70px;
-height:50vh;
-width:100%;
-right:0px;
-border-radius:25px 0px 0px 25px;
-background: #E6F609;
-background: -moz-linear-gradient(top, #E6F609 0%, #EEE10B 50%, #FFB52D 100%);
-background: -webkit-linear-gradient(top, #E6F609 0%, #EEE10B 50%, #FFB52D 100%);
-background: linear-gradient(to bottom, #E6F609 0%, #EEE10B 50%, #FFB52D 100%);
--webkit-box-shadow: 4px 11px 10px 0px rgba(0,0,0,0.74); 
-box-shadow: 4px 4px 10px 0px rgba(0,0,0,0.74);
-z-index:999;
-color:white;
-animation-name:about___me___animation;
-animation-duration: 4s;
-transition:1s;
-&:hover{
-  color:
-  #ebb734;
-  height:15%;
-  border-radius:25px 0px 0px 0px;
-  font-size:0px;
-}
 
-
-@keyframes about___me___animation {
-
-0% {
-  
-height:0px;
-  
-  }
-
-100% {
-
-  height:100%;
-
-}
-
-
-
-}
-`
 
 const MainTitle = styled.h1`
   color: white;
@@ -119,6 +70,7 @@ position:relative;
   text-transform:none;
   text-align:justify;
 
+
   @media (max-width:280px) {
 
     font-size:15px;
@@ -144,17 +96,159 @@ position:relative;
     font-size:45px;
   }
 
+  
+  @media (min-width:1439px) {
+
+    font-size:50px;
+  }
+
 
 `
 
 const PartnerBox = styled.div`
+display:flex
+flex-direction:column;
 position:absolute;
-bottom: 10px;
-height:55px;
+bottom: 25px;
+height:155px;
 width:100%;
-background:red;
+background:linear-gradient(#ff0000, #fc5858);
+
+@media (min-width:599px) {
+
+  height:205px;
+
+}
+
+@media (min-width:599px) and (orientation:landscape) {
+  bottom:10px;
+  height:75px;
+
+}
+
+@media (min-width:991px) {
+
+  height:255px;
+
+}
 
 `
+
+const Container_of_title_partner_section = styled.div`
+display:flex;
+justify-content:center;
+align-self:flex-start;
+position:relative;
+width:100%;
+height:30%;
+
+@media (min-width:599px) {
+
+  height:35%;
+
+}
+
+@media (min-width:767px) {
+
+  height:40%;
+
+}
+
+
+
+`
+
+const Container_of__partner_section = styled.div`
+display:flex;
+justify-content:center;
+align-self:flex-end;
+position:relative;
+width:100%;
+height:70%;
+
+@media (min-width:599px) {
+
+  height:60%;
+
+}
+
+@media (min-width:599px) and (orientation:landscape) {
+  height:50%;
+
+}
+
+@media (min-width:767px) {
+
+  height:60%;
+
+}
+
+
+`
+
+const PartnerTitle = styled.h2`
+color: white;
+  font-family:'Merriweather';
+  margin:5px;
+  font-size:26px;
+  z-index:2;
+
+  @media (min-width:599px) {
+    
+  margin:10px;
+   font-size:50px
+  
+  }
+
+  @media (min-width:599px) and (orientation:landscape) {
+    margin:5px;
+   font-size:15px
+  
+  }
+
+  @media (min-width:991px) {
+    margin:15px;
+    font-size:65px
+  
+  }
+  
+  
+
+
+`
+
+const Partnerlink = styled.a`
+color: white;
+font-family:'Arial';
+font-size:24px;
+text-align:center;
+&:hover {
+
+  font-size:24px; 
+
+}
+
+  @media (min-width:599px) {
+    
+
+  
+  }
+
+  @media (min-width:599px) and (orientation:landscape) {
+   
+  
+  }
+
+  @media (min-width:991px) {
+    
+  
+  }
+  
+  
+
+
+`
+
 
 const Information = () => (
 
@@ -176,12 +270,18 @@ const Information = () => (
         <DescriptionBox>
         <Description>Beginner front end programist and Student living in a small village in Poland. who started in 2014 writing some basic games in The Games Factory 2 Multimedia Fusion 2. Currently i have 18 year's old and i starting this journey with programming again. Creativity and beign helpful is my strong side.</Description>
         </DescriptionBox>
-        <TransitionBox>short note</TransitionBox>
         </div>
         
         </div>
 
-        <PartnerBox></PartnerBox>
+        <PartnerBox>
+        <Container_of_title_partner_section>
+        <PartnerTitle>I collaborate with</PartnerTitle>  
+        </ Container_of_title_partner_section>
+        <Container_of__partner_section>
+        < div className="Partnerguy__one"><Partnerlink href="https://google.pl">Kliknij</Partnerlink></div>
+        </Container_of__partner_section>
+        </PartnerBox>
     </div>
     <div id="skills2">
         <img id="knowledge" src={knowledge} alt="knowledge"></img>
