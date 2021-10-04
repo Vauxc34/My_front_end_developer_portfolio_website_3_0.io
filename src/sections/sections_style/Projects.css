@@ -200,19 +200,11 @@ span {
         font-size: xx-large;
     }
 
-    #prj3 {
-        background-size: 100%;
-    }
-
 }
 
 @media (min-width: 320px) and (min-height: 480px) {
     span {
         font-size: x-large;
-    }
-
-    #prj3 {
-        background-size: 100%;
     }
 
     #prj5 {
@@ -261,13 +253,11 @@ span {
         font-size: xx-large;
     }
 
-    #prj3 {
-        background-size: 100%;
-    }
 
 }
 
 @media (min-width:360px) and (min-height: 640px) {
+
 
     #prj2 {
         background-size: 100%;
@@ -289,6 +279,10 @@ span {
 }
 
 @media (min-width:600px) {
+
+    #prj3 {
+        background-size: 210%;
+    }
 
     #prj5 {
         position: absolute;
