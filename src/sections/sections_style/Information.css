@@ -136,19 +136,6 @@ box-shadow: inset 0px -1px 10px 0px #000000;
 }
 
 
-.desc {
-    display: block;
-    position: relative;
-    align-self: flex-end;
-    text-align: left;
-    font-size: 22px;
-    padding: 1px;
-    text-transform: uppercase;
-    font-family: 'Merriweather', serif;
-    color: #c6b8ff;
-    z-index: 1;
-}
-
 #about_me_ {
     top: 0px;
 }
@@ -161,7 +148,7 @@ box-shadow: inset 0px -1px 10px 0px #000000;
     position: relative;
     flex-direction: column;
     align-self: flex-start;
-    margin-top: 20px;
+    margin-top: 10vh;
     height: 80%;
     width: 90%;
     border-bottom: 2px solid white;
@@ -375,16 +362,23 @@ h4 {
 /* media querie's */
 
 @media (min-width:280px) and (max-width:650px) {
+
+    h4 {
+        font-size: 4vh;
+    }
     
     #widget__two_with_description {
         top: 50px;
         height:125px;
     }
+
+    
+
 }
 
 @media (min-width:599px) and (orientation:landscape) {
 
-    .Partnerguy__one {
+.Partnerguy__one {
         position: relative;
         height: 45px;
         width: 45px;
@@ -393,7 +387,7 @@ h4 {
         border-radius: 50%;
         }
         
-
+        
 }
 
 @media (max-width:650px) and (orientation:portrait) {
@@ -410,6 +404,34 @@ h4 {
         top:150px;
         height:45vh;
     }
+
+    h4 {
+        font-size: 4vh;
+    }
+
+    .css3_name {
+        font-size: 7vh;
+    }
+    .js6_name {
+        font-size: 7vh;
+    }
+    
+    .html5_name {
+        font-size: 7vh;
+    }
+    
+    .sassscss_name {
+        font-size: 7vh;
+    }
+    
+    .react_name {
+        font-size: 7vh;
+    }
+    
+    .git_name {
+        font-size: 7vh;
+    }
+    
     
     #widget__one {
         width: 300px;
@@ -441,32 +463,37 @@ h4 {
     
 
     #html5 {
-        height: 50px;
+        height: 9vh;
+        left: -49%;
     }
     
     #css3 {
-        height: 50px;
+        height: 10vh;
     }
     
     #wordpress_log {
-        top:-105%;
-        height: 300px;
+        top:-185%;
+        height: 65vh;
     }
     
     #js6 {
-        height: 50px;
+        height: 9vh;
+        left: -48%;
     }
     
     #sassscss {
-        height: 50px;
+        height: 14vh;
+        left: -47%;
     }
     
     #react {
-        height: 50px;
+        height: 13vh;
+        left: 48.5%;
     }
     
     #git {
-        height: 50px;
+        height: 10vh;
+        left: -49.5%;
     }
     
 
@@ -495,7 +522,164 @@ h4 {
 
 }
 
+@media (min-width:799px) {
+
+    h4 {
+            font-size: 5vh;
+        }
+    
+    #html5 {
+        height: 15vh;
+    }
+    
+    #css3 {
+        height: 17vh;
+    }
+    
+    #js6 {
+        height: 14vh;
+    }
+    
+    #wordpress_log {
+        top:-55%;
+        height: 55vh;
+    }
+    
+    #sassscss {
+        height: 30vh;
+    }
+    
+    #react {
+        height: 30vh;
+    }
+    
+    #git {
+        height: 21vh;
+    }
+    
+    .html5_name {
+        font-size: 6vh;
+    
+    }
+    
+    .css3_name {
+        font-size: 7vh;
+    
+    }
+    
+    .js6_name {
+        font-size: 3.5vh;
+    
+    }
+    
+    
+    .sassscss_name {
+        font-size: 4vh;
+    
+    }
+    
+    .react_name {
+        font-size: 7vh;
+    }
+    
+    .git_name {
+        font-size: 8vh;
+    }
+    
+    .wordpress_name {
+        font-size: 11vh;
+    }
+    
+    #skill_wordpress {
+        height: 100%;
+    }
+    
+        .Partnerguy__one {
+            position: relative;
+            height: 120px;
+            width: 120px;
+            background-size: cover;
+            background-image:url(../images/col_graph.jpg);
+            border-radius: 50%;
+            }    
+    
+    }
+
 @media (min-width:991px) {
+
+h4 {
+        font-size: 8vh;
+    }
+
+#html5 {
+    height: 25vh;
+}
+
+#css3 {
+    height: 27vh;
+}
+
+#js6 {
+    height: 22vh;
+}
+
+#wordpress_log {
+    top:-155%;
+    height: 125vh;
+}
+
+#sassscss {
+    height: 30vh;
+}
+
+#react {
+    height: 30vh;
+}
+
+#git {
+    height: 21vh;
+}
+
+.html5_name {
+    font-size: 11vh;
+
+}
+
+.css3_name {
+    font-size: 11vh;
+
+}
+
+.js6_name {
+    font-size: 10vh;
+
+}
+
+.sassscss_name {
+    font-size: 10vh;
+
+}
+
+.sassscss_name {
+    font-size: 10vh;
+
+}
+
+.react_name {
+    font-size: 10vh;
+}
+
+.git_name {
+    font-size: 10vh;
+}
+
+.wordpress_name {
+    font-size: 20vh;
+}
+
+#skill_wordpress {
+    height: 100%;
+}
 
     .Partnerguy__one {
         position: relative;
