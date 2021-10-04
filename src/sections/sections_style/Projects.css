@@ -110,7 +110,7 @@ span {
     width: 100%; 
     background-image: url(../images/mini_apps.png);
     background-position: 50%;
-    background-size: auto 100%;
+    background-size: 100%;
     background-repeat: no-repeat;
     z-index: -1;
 }
@@ -273,10 +273,6 @@ span {
         background-size: 100%;
         background-position: 25%;
     }
-    
-    #prj3 {
-        background-size: 100%;
-    }
 
     #prj5 {
         position: absolute;
@@ -418,7 +414,7 @@ span {
 @media (min-width: 651px) {
     
     #prj2 {
-        background-size: 15%;
+        background-size: 200%;
     }
 
 }
