@@ -6,6 +6,8 @@ import styled from 'styled-components'
 
 /* skill's */
 
+import bgc_section__3 from './images/bgc__3.jpg'
+
 import html5 from '../sections/images/HTML5.png'
 import css3 from '../sections/images/CSS3.png'
 import js6 from '../sections/images/JS6.png'
@@ -15,6 +17,26 @@ import react from '../sections/images/react.png'
 import git from '../sections/images/git.png'
 
 /* */
+
+const Skills__one_filterbgc = styled.div`
+    justify-content: center;
+    flex-direction: column;
+    align-self: flex-start;
+    position: relative;
+    height: 100%;
+    width: 100%;
+    background:url(${bgc_section__3});
+    background-size:cover;
+    z-index: 0;
+    overflow: hidden;
+
+    @media (min-width:0px) and (max-width:800px) {
+
+    background-position: 50%;
+
+    }
+}
+`
 
 const Circle = styled.div`
 position:absolute;
@@ -69,50 +91,6 @@ width:clamp(80%, 15vh, 90%);
 
 `
 
-const Description = styled.span`
-position:relative;
-  background: transparent;
-  color: black;
-  font-family:Arial;
-  font-size:2.5vh;
-  text-transform:none;
-  text-align:justify;
-
-
-  @media (max-width:280px) {
-
-    font-size:15px;
-  }
-
-  @media (min-width:600px) {
-
-    font-size:15px;
-  }
-
-  @media (min-width:768px) {
-
-    font-size:32px;
-  }
-
-  @media (min-width:1024px) {
-
-    font-size:28px;
-  }
-
-  @media (min-height:1366px) {
-
-    font-size:45px;
-  }
-
-  
-  @media (min-width:1439px) {
-
-    font-size:50px;
-  }
-
-
-`
-
 const PartnerBox = styled.div`
 display:flex
 flex-direction:column;
@@ -120,7 +98,7 @@ position:absolute;
 bottom: 25px;
 height:155px;
 width:100%;
-background:linear-gradient(#ff0000, #fc5858);
+background:linear-gradient(#aa00005e, #aa0000ee);
 
 @media (min-width:599px) {
 
@@ -139,6 +117,24 @@ background:linear-gradient(#ff0000, #fc5858);
   height:255px;
 
 }
+
+`
+
+const Partnerfilter = styled.div`
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  position: relative;
+  height: 100%;
+  width: 100%;
+  background:transparent;
+  border-radius: 50%;
+  opacity:0;
+  transition: .5s;
+  &:hover{
+    background:#0000007a;
+    opacity:1;
+  }
 
 `
 
@@ -227,7 +223,7 @@ color: white;
 
 const Partnerlink = styled.a`
 color: white;
-font-family:'Arial';
+font-family:'Merriweather';
 font-size:24px;
 text-align:center;
 &:hover {
@@ -243,7 +239,12 @@ text-align:center;
   }
 
   @media (min-width:599px) and (orientation:landscape) {
-   
+    font-size:2.5vh; 
+    &:hover {
+
+      font-size:2.5vh; 
+    
+    }
   
   }
 
@@ -262,14 +263,17 @@ const Information = () => (
 
 <div id="information">
 
-    <div id="skills1">
+    <div id="skills1"> 
+
+        <Skills__one_filterbgc />
         
         <div id="about_me">
 
         <div id="widget__one">
         <MainTitle>Who am i?</MainTitle>
         <Circle>
-          <div className="avatar"></div>
+          <div className="avatar">
+          </div>
        
         </Circle>
         </div>
@@ -287,7 +291,7 @@ const Information = () => (
         <PartnerTitle>I collaborate with</PartnerTitle>  
         </ Container_of_title_partner_section>
         <Container_of__partner_section>
-        < div className="Partnerguy__one"><Partnerlink href="https://google.pl">Kliknij</Partnerlink></div>
+        < div className="Partnerguy__one"><Partnerfilter><Partnerlink href="https://karolczakszymon.pl/">[Click]</Partnerlink></Partnerfilter></div>
         </Container_of__partner_section>
         </PartnerBox>
     </div>
