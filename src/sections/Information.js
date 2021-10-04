@@ -114,7 +114,7 @@ background:linear-gradient(#aa00005e, #aa0000ee);
 
 @media (min-width:991px) {
 
-  height:255px;
+  height:30vh;
 
 }
 
