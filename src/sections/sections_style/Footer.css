@@ -27,7 +27,7 @@ h2 {
     position: absolute;
     text-transform: uppercase;
     margin: 10px;
-    font-size: 36px;
+    font-size: 30px;
     font-family: 'Lobster', cursive;
     color: white;
     z-index: 2;
@@ -95,8 +95,16 @@ h2 {
     
 }
 
-@media (min-width:1024px) {
+@media (min-width:1023px) {
 
-
+    h2 {
+        position: absolute;
+        text-transform: uppercase;
+        margin: 10px;
+        font-size:106px;
+        font-family: 'Lobster', cursive;
+        color: white;
+        z-index: 2;
+    }
     
 }

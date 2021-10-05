@@ -7,14 +7,41 @@ import './sections_style/ContactUs.css';
 const Container_emailbox__1 = styled.div`
 position:relative;
 display:flex;
-height:15%;
+flex-direction:column;
+height:20%;
 
+@media (min-width:599px) {
+  flex-direction:row;
+  height:10%;
+
+}
+
+@media (min-width:1023px) {
+
+  width:60%;
+
+}
 `
 
 const Container_labelBox__1 = styled.div`
 position:relative;
 display:flex;
-height:10%;
+flex-direction:column;
+height:0%;
+visibility:hidden;
+
+@media (min-width:599px) {
+
+  flex-direction:row;
+  height:10%;
+  visibility:visible;
+
+  @media (min-width:1023px) {
+    width:60%;
+  
+  }
+
+}
 
 `
 
@@ -23,6 +50,11 @@ position:relative;
 flex-direction:column;
 display:flex;
 height:60%;
+
+@media (min-width:1023px) {
+  width:60%;
+
+}
 
 `
 
@@ -47,13 +79,13 @@ export default function ContactUs() {
       </Container_labelBox__1>
       <Container_emailbox__1>
       <input type="hidden" name="contact_number" />
-      <input type="text" name="user_name"/>
-      <input type="email" name="user_email"  />
+      <input type="text" placeholder="type your name" name="user_name"/>
+      <input type="email" placeholder="type your e-mail address" name="user_email"  />
       </Container_emailbox__1>
       <Container_emailtext__1>
-      <label>Type your message or question</label>
-      <textarea name="message" />
-      <input type="submit" value="Send" />
+      <label id="typing" >Type your message or question</label>
+      <textarea name="message" placeholder="type your ask or something different" />
+      <input id="send_btn" type="submit" value="Send" />
       </Container_emailtext__1>
     </form>
   );

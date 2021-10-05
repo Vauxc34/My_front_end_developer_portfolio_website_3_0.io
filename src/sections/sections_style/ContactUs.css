@@ -19,10 +19,20 @@ border: none;
 
 }
 
-input:last-child {
 
+#send_btn {
+height: 15%;
+margin: 10px;
+width: 45%;
+font-family:  'Fjalla One', sans-serif;
+border: none;
+font-size: 4.35vw;
+margin-bottom: 5px;
 cursor: pointer;
+}
 
+#typing {
+    visibility: hidden;
 }
 
 textarea {
@@ -37,55 +47,85 @@ border: none;
 label {
     display: block;
     width: 50%;
+    text-align: center;
     align-self: center;
-    font-size: 1.25vw;
+    font-size: 0vh;
     font-family:  'Fjalla One', sans-serif;
 
 }
 
 ::placeholder {
-    font-size: 1.5vh;
-    padding: 15px;
+    font-size: 2vh;
+    padding: 10px;
 }
 
-label:nth-child(2) {
 
-margin-top: 0px;
-margin-bottom:2px;
+@media (min-width:599px) {
 
-}
+    ::placeholder {
+        visibility: hidden;
+    }
 
-label:nth-child(6) {
+    #send_btn {
+        height: 25%;
+        }
+        
 
-margin-top: 20px;
-margin-bottom: -10px;
-font-size: 2.4vh;
+    #typing {
+        visibility: visible;
+    }
 
-}
+    label {
+        display: block;
+        width: 50%;
+        text-align: center;
+        align-self: center;
+        margin: 10px;
+        font-size: 3vh;
+        font-family:  'Fjalla One', sans-serif;
+    
+    }
 
-input:nth-child(8) {
-
-width: 45%;
-font-family:  'Fjalla One', sans-serif;
-border: none;
-font-size: 1.5vw;
-height: 10%;
-margin-bottom: 5px;
-
-}
-
-@media (min-width:600px) {
 
 }
 
 @media (min-width:767px) {
 
+    label {
+        display: block;
+        width: 50%;
+        text-align: center;
+        align-self: center;
+        margin: 15px;
+        font-size: 2.5vh;
+        font-family:  'Fjalla One', sans-serif;
+    
+    }
+
+    #send_btn {
+        height: 15%;
+        }
 
     
 }
 
-@media (min-width:1024px) {
+@media (min-width:1023px) {
 
+    #send_btn {
+        margin-top: 25px;
+        height: 5vh;
+        font-size: 3.5vh;
+        }
 
+        form {
+            flex-direction: column;
+            position: relative;
+            height: 75%;
+            width: 90%;
+            left: 35%;
+            top: 9%;
+            color: #ffffff;
+            z-index: 4;
+            }
     
 }
