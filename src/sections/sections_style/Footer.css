@@ -26,6 +26,7 @@ form {
 h2 {
     position: absolute;
     text-transform: uppercase;
+    margin: 10px;
     font-size: 36px;
     font-family: 'Lobster', cursive;
     color: white;
@@ -63,3 +64,39 @@ h2 {
 
 /* media querie's */
 
+@media (min-width:600px) {
+
+    h2 {
+        position: absolute;
+        text-transform: uppercase;
+        margin: 5px;
+        font-size: 46px;
+        font-family: 'Lobster', cursive;
+        color: white;
+        z-index: 2;
+    }
+
+
+
+}
+
+@media (min-width:767px) {
+
+    h2 {
+        position: absolute;
+        text-transform: uppercase;
+        margin: 10px;
+        font-size: 36px;
+        font-family: 'Lobster', cursive;
+        color: white;
+        z-index: 2;
+    }
+
+    
+}
+
+@media (min-width:1024px) {
+
+
+    
+}

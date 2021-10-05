@@ -10,9 +10,9 @@ z-index: 4;
 
 input {
 
-margin-bottom: -15px;
+margin: 5px;
 width: 85%;
-height: 8.5%;
+height:5vh;
 background: white;
 align-self: center;
 border: none;
@@ -27,7 +27,6 @@ cursor: pointer;
 
 textarea {
 
-margin: 10px;
 width: 85%;
 height: 40%;
 align-self: center;
@@ -36,11 +35,11 @@ border: none;
 }
 
 label {
+    display: block;
+    width: 50%;
     align-self: center;
-    margin-top: 15px;
     font-size: 1.25vw;
     font-family:  'Fjalla One', sans-serif;
-    padding: 4px;
 
 }
 
@@ -75,3 +74,18 @@ margin-bottom: 5px;
 
 }
 
+@media (min-width:600px) {
+
+}
+
+@media (min-width:767px) {
+
+
+    
+}
+
+@media (min-width:1024px) {
+
+
+    
+}
