@@ -29,8 +29,17 @@ const Skills__one_filterbgc = styled.div`
     background-size:cover;
     z-index: 0;
     overflow: hidden;
+    background-position: 250%;
 
     @media (min-width:0px) and (max-width:800px) {
+
+    background-position: 50%;
+
+    }
+
+
+    @media (min-width:900px) and (max-width:1280px) {
+
 
     background-position: 50%;
 
@@ -292,7 +301,9 @@ const Information = () => (
         </ Container_of_title_partner_section>
         <Container_of__partner_section>
         < div className="Partnerguy__one"><Partnerfilter><Partnerlink href="https://karolczakszymon.pl/">[Click]</Partnerlink></Partnerfilter></div>
+        < div className="Partnerguy__two"><Partnerfilter><Partnerlink href="https://codeclutch.pl/">[Click]</Partnerlink></Partnerfilter></div>
         </Container_of__partner_section>
+        
         </PartnerBox>
     </div>
     <div id="skills2">

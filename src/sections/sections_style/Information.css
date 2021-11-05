@@ -71,10 +71,24 @@ flex-direction: column;
 position: relative;
 height: 100px;
 width: 100px;
+margin-right:7.5px;
 background-size: 100px;
 background-image:url(../images/col_graph.jpg);
 border-radius: 50%;
 }
+
+.Partnerguy__two {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    position: relative;
+    height: 100px;
+    width: 100px;
+    margin-left:7.5px;
+    background-size: 100px;
+    background-image:url(../images/col_graph_2.jpg);
+    border-radius: 50%;
+    }
     
 
 
@@ -688,6 +702,17 @@ h4 {
         background-size: cover;
         background-image:url(../images/col_graph.jpg);
         border-radius: 50%;
-        }    
+        }   
+        
+        .Partnerguy__two {
+            position: relative;
+            height: 120px;
+            width: 120px;
+            background-size: cover;
+            background-image:url(../images/col_graph_2.jpg);
+            border-radius: 50%;
+            }    
 
 }
+
+
