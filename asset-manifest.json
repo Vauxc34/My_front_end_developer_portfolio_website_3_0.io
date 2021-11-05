@@ -1,14 +1,14 @@
 {
   "files": {
-    "main.css": "/My_front_end_developer_portfolio_website_3_0.io/static/css/main.b7c8fa5c.chunk.css",
-    "main.js": "/My_front_end_developer_portfolio_website_3_0.io/static/js/main.4519a60a.chunk.js",
-    "main.js.map": "/My_front_end_developer_portfolio_website_3_0.io/static/js/main.4519a60a.chunk.js.map",
+    "main.css": "/My_front_end_developer_portfolio_website_3_0.io/static/css/main.afa982bb.chunk.css",
+    "main.js": "/My_front_end_developer_portfolio_website_3_0.io/static/js/main.3826fde8.chunk.js",
+    "main.js.map": "/My_front_end_developer_portfolio_website_3_0.io/static/js/main.3826fde8.chunk.js.map",
     "runtime-main.js": "/My_front_end_developer_portfolio_website_3_0.io/static/js/runtime-main.aee28025.js",
     "runtime-main.js.map": "/My_front_end_developer_portfolio_website_3_0.io/static/js/runtime-main.aee28025.js.map",
     "static/js/2.eb880398.chunk.js": "/My_front_end_developer_portfolio_website_3_0.io/static/js/2.eb880398.chunk.js",
     "static/js/2.eb880398.chunk.js.map": "/My_front_end_developer_portfolio_website_3_0.io/static/js/2.eb880398.chunk.js.map",
     "index.html": "/My_front_end_developer_portfolio_website_3_0.io/index.html",
-    "static/css/main.b7c8fa5c.chunk.css.map": "/My_front_end_developer_portfolio_website_3_0.io/static/css/main.b7c8fa5c.chunk.css.map",
+    "static/css/main.afa982bb.chunk.css.map": "/My_front_end_developer_portfolio_website_3_0.io/static/css/main.afa982bb.chunk.css.map",
     "static/js/2.eb880398.chunk.js.LICENSE.txt": "/My_front_end_developer_portfolio_website_3_0.io/static/js/2.eb880398.chunk.js.LICENSE.txt",
     "static/media/CSS3.19c8605d.png": "/My_front_end_developer_portfolio_website_3_0.io/static/media/CSS3.19c8605d.png",
     "static/media/HTML5.d4bc84dd.png": "/My_front_end_developer_portfolio_website_3_0.io/static/media/HTML5.d4bc84dd.png",
@@ -16,7 +16,7 @@
     "static/media/SASS.c5213e47.png": "/My_front_end_developer_portfolio_website_3_0.io/static/media/SASS.c5213e47.png",
     "static/media/Information.css": "/My_front_end_developer_portfolio_website_3_0.io/static/media/desk.b8d2502c.jpg",
     "static/media/Wordpress_Blue_logo.f1c9b08e.png": "/My_front_end_developer_portfolio_website_3_0.io/static/media/Wordpress_Blue_logo.f1c9b08e.png",
-    "static/media/bgc__3.902722b5.jpg": "/My_front_end_developer_portfolio_website_3_0.io/static/media/bgc__3.902722b5.jpg",
+    "static/media/bgc__3.2ae85c15.jpg": "/My_front_end_developer_portfolio_website_3_0.io/static/media/bgc__3.2ae85c15.jpg",
     "static/media/Projects.css": "/My_front_end_developer_portfolio_website_3_0.io/static/media/thumbnail.b61f3862.png",
     "static/media/contact.797b3349.jpg": "/My_front_end_developer_portfolio_website_3_0.io/static/media/contact.797b3349.jpg",
     "static/media/heading.f97e44ce.gif": "/My_front_end_developer_portfolio_website_3_0.io/static/media/heading.f97e44ce.gif",
@@ -26,7 +26,7 @@
   "entrypoints": [
     "static/js/runtime-main.aee28025.js",
     "static/js/2.eb880398.chunk.js",
-    "static/css/main.b7c8fa5c.chunk.css",
-    "static/js/main.4519a60a.chunk.js"
+    "static/css/main.afa982bb.chunk.css",
+    "static/js/main.3826fde8.chunk.js"
   ]
 }
